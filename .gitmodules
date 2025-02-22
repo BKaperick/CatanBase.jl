@@ -1,3 +1,6 @@
 [submodule "CatanEngine.jl"]
 	path = CatanEngine.jl
 	url = https://github.com/BKaperick/CatanEngine.jl
+[submodule "CatanLearning.jl"]
+	path = CatanLearning.jl
+	url = git@github.com:BKaperick/CatanLearning.jl.git
