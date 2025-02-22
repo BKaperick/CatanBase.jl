@@ -1,0 +1,3 @@
+[submodule "CatanEngine.jl"]
+	path = CatanEngine.jl
+	url = https://github.com/BKaperick/CatanEngine.jl
