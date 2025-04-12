@@ -1,0 +1,25 @@
+DATA_DIR = "."
+SAVE_GAME_TO_FILE = false
+SAVE_FILE = "savefile.txt"
+LOG_OUTPUT = "test_log.txt"
+LOG_LEVEL = "Logging.Info"
+PRINT_BOARD = true
+MAX_TURNS = 5000
+TEAMS = ["blue", "cyan", "green", "yellow"]
+
+[Tournament]
+GAMES_PER_MAP = 1
+MAPS_PER_EPOCH = 1
+# Number of epochs (1 epoch is M*N games) to run
+NUM_EPOCHS = 1
+
+[GameSettings]
+[PlayerSettings]
+[PlayerSettings.blue]
+TYPE = "DefaultRobotPlayer"
+[PlayerSettings.cyan]
+TYPE = "DefaultRobotPlayer"
+[PlayerSettings.green]
+TYPE = "DefaultRobotPlayer"
+[PlayerSettings.yellow]
+TYPE = "DefaultRobotPlayer"

@@ -1,0 +1,3318 @@
+┌ Info: Starting game 5808 turn 0
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:27
+┌ Info: cyan rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: Doing first turn forward
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:66
+┌ Info: cyan builds settlement at intersection of N,M,I
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:108
+┌ Info: cyan builds road at I-M
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: yellow builds settlement at intersection of A,B
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:108
+┌ Info: yellow builds road at B
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: blue builds settlement at intersection of H
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:108
+┌ Info: blue builds road at H
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: green builds settlement at intersection of P,L
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:108
+┌ Info: green builds road at P-L
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: Doing first turn reverse
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:74
+┌ Info: green builds settlement at intersection of R,Q
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:108
+┌ Info: green builds road at R
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue builds settlement at intersection of N,R,Q
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:108
+┌ Info: blue builds road at N-R
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow builds settlement at intersection of G,L
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:108
+┌ Info: yellow builds road at G-L
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan builds settlement at intersection of P,S,O
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:108
+┌ Info: cyan builds road at P-O
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: Starting game 5808 turn 0
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan moves robber to N
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: Noone accepted
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:47
+┌ Info: yellow rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: yellow accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: green decided it is wisest to do business with yellow player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :green harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 1
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 1
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow moves robber to L
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to C
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: turn num 2
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 2
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: blue moves robber to R
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to F
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 3
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 3
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: blue accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: Noone accepted
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:47
+┌ Info: yellow rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to I
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: turn num 4
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 4
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to F
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: turn num 5
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 5
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan moves robber to H
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 6
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 6
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: yellow moves robber to S
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 7
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 7
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan builds road at N-I
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: yellow does devcard YearOfPlenty action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow builds road at A
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: cyan accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: yellow decided it is wisest to do business with cyan player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :cyan harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: green accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: yellow decided it is wisest to do business with green player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 8
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 8
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow moves robber to R
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 9
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 9
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: yellow moves robber to N
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: green decided it is wisest to do business with blue player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :green harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 10
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 10
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan builds settlement at intersection of P,K,O
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:108
+┌ Info: yellow rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 11
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 11
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan builds road at P-S
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: cyan builds road at P-K
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: yellow does devcard RoadBuilding action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: yellow builds road at B
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: yellow builds road at G-K
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: yellow rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to L
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: turn num 12
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 12
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan builds road at P
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: cyan builds road at K-L
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: yellow rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow moves robber to C
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue does devcard RoadBuilding action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: blue builds road at R-O
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: blue builds road at S-O
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: blue rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green does devcard Monopoly action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: cyan gives 0 Grain to green
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:119
+┌ Info: yellow gives 2 Grain to green
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:119
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue gives 3 Grain to green
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:119
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green gives 10 Grain to green
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:119
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to B
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: turn num 13
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 13
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to O
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 14
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 14
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan moves robber to E
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: cyan builds road at M-H
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: yellow rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: blue moves robber to N
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue builds city at intersection of H
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:85
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to Q
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: turn num 15
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 15
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 16
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 16
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow moves robber to B
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 17
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 17
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to J
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue builds city at intersection of N,R,Q
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:85
+┌ Info: green rolled a 12
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: turn num 18
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 18
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan builds road at H
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: cyan builds road at P
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: yellow rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to M
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 19
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 19
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan builds road at I-J
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: yellow rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 20
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 20
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan builds road at I-E
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: cyan builds road at D-E
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: yellow rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to L
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 21
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 21
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan moves robber to D
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: cyan builds road at A-E
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: yellow rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow moves robber to H
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to P
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 22
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 22
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 12
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: Noone accepted
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:47
+┌ Info: turn num 23
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 23
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: yellow moves robber to G
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 24
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 24
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: yellow decided it is wisest to do business with green player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to F
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 25
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 25
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow moves robber to I
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 26
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 26
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 27
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 27
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow moves robber to E
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: Noone accepted
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:47
+┌ Info: blue rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 28
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 28
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: blue moves robber to S
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to D
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: blue accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: green decided it is wisest to do business with blue player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 29
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 29
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: Noone accepted
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:47
+┌ Info: yellow rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to M
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 30
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 30
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: Noone accepted
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:47
+┌ Info: yellow rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to R
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 31
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 31
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 32
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 32
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 12
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: yellow moves robber to I
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 33
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 33
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 34
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 34
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow moves robber to P
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 2
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 35
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 35
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 2
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: blue moves robber to A
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to O
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 36
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 36
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 2
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: cyan decided it is wisest to do business with yellow player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :cyan harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 37
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 37
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan moves robber to N
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow does devcard YearOfPlenty action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: turn num 38
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 38
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow builds settlement at intersection of B,C
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:108
+┌ Info: blue rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to H
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: turn num 39
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 39
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan moves robber to Q
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow moves robber to K
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 40
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 40
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 41
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 41
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to A
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 42
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 42
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 43
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 43
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 12
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: yellow moves robber to Q
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 44
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 44
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: yellow moves robber to I
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: blue moves robber to Q
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to B
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 45
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 45
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 46
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 46
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to D
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: turn num 47
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 47
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow does devcard Monopoly action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: cyan gives 6 Wood to yellow
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:119
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow gives 6 Wood to yellow
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:119
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue gives 0 Wood to yellow
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:119
+┌ Info: green gives 0 Wood to yellow
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:119
+┌ Info: yellow rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: green accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: blue decided it is wisest to do business with green player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to C
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: cyan accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: yellow accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: green decided it is wisest to do business with cyan player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 48
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 48
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow moves robber to G
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: blue moves robber to R
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: blue rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 49
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 49
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: blue accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: yellow decided it is wisest to do business with cyan player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow builds settlement at intersection of F,G,K
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:108
+┌ Info: blue rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 50
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 50
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan moves robber to K
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 51
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 51
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan moves robber to P
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow builds road at F-K
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: yellow builds road at L
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to C
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to B
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: blue accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: green decided it is wisest to do business with yellow player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :green harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 52
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 52
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 53
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 53
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 2
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 2
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: yellow moves robber to H
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: cyan accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: blue accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: green accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: Noone accepted
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:47
+┌ Info: blue rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to D
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: cyan accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: yellow accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: blue accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: green decided it is wisest to do business with blue player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 54
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 54
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan moves robber to A
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: yellow accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: blue accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: green decided it is wisest to do business with cyan player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :green harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: blue accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: green decided it is wisest to do business with yellow player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 55
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 55
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 56
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 56
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow does devcard Knight action
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:86
+┌ Info: yellow moves robber to E
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow builds road at A-B
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:120
+┌ Info: blue rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 57
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 57
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan moves robber to R
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow builds city at intersection of F,G,K
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:85
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to Q
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to D
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: turn num 58
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 58
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 2 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: green accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: blue decided it is wisest to do business with green player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :blue harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 2 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 59
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 59
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 2 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: blue decided it is wisest to do business with cyan player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 2 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 60
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 60
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: cyan decided it is wisest to do business with green player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :cyan harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :green harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: yellow decided it is wisest to do business with cyan player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 2 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 61
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 61
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 62
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 62
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to S
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 12
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: turn num 63
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 63
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan moves robber to M
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: yellow rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 2 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 9
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Brick
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 64
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 64
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 4
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue rolled a 8
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 0 Brick
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: blue harvests 2 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: cyan harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 6
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: turn num 65
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 65
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 2
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 10
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green harvests 1 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :green harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue harvests 2 Grain
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Grain
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow builds city at intersection of A,B
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:85
+┌ Info: blue rolled a 3
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: yellow harvests 2 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow harvests 1 Pasture
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :yellow harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to J
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: turn num 66
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: Starting game 5808 turn 66
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:34
+┌ Info: cyan rolled a 5
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Stone
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Stone
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: blue accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: green accepts the trade proposal
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/trading.jl:38
+┌ Info: cyan decided it is wisest to do business with blue player
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:158
+┌ Info: :cyan harvests Pasture
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: :blue harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow rolled a 11
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: cyan harvests 1 Wood
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/main.jl:118
+┌ Info: :cyan harvests Wood
+└ @ Catan.PlayerApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/player_api.jl:186
+┌ Info: yellow builds city at intersection of B,C
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:85
+┌ Info: blue rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: blue moves robber to E
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: green rolled a 7
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/players/robot_player.jl:52
+┌ Info: green moves robber to B
+└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/actions.jl:153
+┌ Info: turn num 67
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:46
+┌ Info: WINNER 10 (DefaultRobotPlayer(Player(Dict(:Stone => 1, :Wood => 0, :Grain => 1, :Brick => 18, :Pasture => 10), Dict(:YearOfPlenty => 0, :RoadBuilding => 0, :Monopoly => 0, :VictoryPoint => 1, :Knight => 0), :yellow, Dict(:YearOfPlenty => 2, :RoadBuilding => 1, :Monopoly => 1, :Knight => 8), Dict(:Stone => 4, :Wood => 4, :Grain => 4, :Brick => 4, :Pasture => 2), false, nothing, Dict{String, Any}("DATA_DIR" => ".", "LOGGER_IO" => IOStream(<file test_log.txt>), "MAX_TURNS" => 5000, "SAVE_GAME_TO_FILE" => false, "PRINT_BOARD" => true, "GameSettings" => Dict{String, Any}(), "PlayerSettings" => Dict{String, Any}("cyan" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer"), "yellow" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer"), "blue" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer"), "green" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer")), "LOG_OUTPUT" => "test_log.txt", "SAVE_FILE_IO" => IOStream(<file savefile.txt>), "MAP_FILE" => "./_temp_map_file.csv", "LOG_LEVEL" => Info, "SAVE_FILE" => "savefile.txt", "Tournament" => Dict{String, Any}("GAMES_PER_MAP" => 1, "MAPS_PER_EPOCH" => 1, "NUM_EPOCHS" => 1), "TEAMS" => ["blue", "cyan", "green", "yellow"]))))
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:138
+┌ Info: yellow has 10 points on turn 67 (9 points were public)
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:152
+┌ Info: 8 roads
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:62
+┌ Info: 1 settlements
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:63
+┌ Info: 3 cities
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:64
+┌ Info: Largest Army (8 knights)
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:155
+┌ Info: 1 points from dev cards
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:161
+┌ Info: Player(Dict(:Stone => 1, :Wood => 0, :Grain => 1, :Brick => 18, :Pasture => 10), Dict(:YearOfPlenty => 0, :RoadBuilding => 0, :Monopoly => 0, :VictoryPoint => 1, :Knight => 0), :yellow, Dict(:YearOfPlenty => 2, :RoadBuilding => 1, :Monopoly => 1, :Knight => 8), Dict(:Stone => 4, :Wood => 4, :Grain => 4, :Brick => 4, :Pasture => 2), false, nothing, Dict{String, Any}("DATA_DIR" => ".", "LOGGER_IO" => IOStream(<file test_log.txt>), "MAX_TURNS" => 5000, "SAVE_GAME_TO_FILE" => false, "PRINT_BOARD" => true, "GameSettings" => Dict{String, Any}(), "PlayerSettings" => Dict{String, Any}("cyan" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer"), "yellow" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer"), "blue" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer"), "green" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer")), "LOG_OUTPUT" => "test_log.txt", "SAVE_FILE_IO" => IOStream(<file savefile.txt>), "MAP_FILE" => "./_temp_map_file.csv", "LOG_LEVEL" => Info, "SAVE_FILE" => "savefile.txt", "Tournament" => Dict{String, Any}("GAMES_PER_MAP" => 1, "MAPS_PER_EPOCH" => 1, "NUM_EPOCHS" => 1), "TEAMS" => ["blue", "cyan", "green", "yellow"]))
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:163
+┌ Info: WINNER 10 (DefaultRobotPlayer(Player(Dict(:Stone => 1, :Wood => 0, :Grain => 1, :Brick => 18, :Pasture => 10), Dict(:YearOfPlenty => 0, :RoadBuilding => 0, :Monopoly => 0, :VictoryPoint => 1, :Knight => 0), :yellow, Dict(:YearOfPlenty => 2, :RoadBuilding => 1, :Monopoly => 1, :Knight => 8), Dict(:Stone => 4, :Wood => 4, :Grain => 4, :Brick => 4, :Pasture => 2), false, nothing, Dict{String, Any}("DATA_DIR" => ".", "LOGGER_IO" => IOStream(<file test_log.txt>), "MAX_TURNS" => 5000, "SAVE_GAME_TO_FILE" => false, "PRINT_BOARD" => true, "GameSettings" => Dict{String, Any}(), "PlayerSettings" => Dict{String, Any}("cyan" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer"), "yellow" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer"), "blue" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer"), "green" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer")), "LOG_OUTPUT" => "test_log.txt", "SAVE_FILE_IO" => IOStream(<file savefile.txt>), "MAP_FILE" => "./_temp_map_file.csv", "LOG_LEVEL" => Info, "SAVE_FILE" => "savefile.txt", "Tournament" => Dict{String, Any}("GAMES_PER_MAP" => 1, "MAPS_PER_EPOCH" => 1, "NUM_EPOCHS" => 1), "TEAMS" => ["blue", "cyan", "green", "yellow"]))))
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:138
+┌ Info: yellow has 10 points on turn 67 (9 points were public)
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:152
+┌ Info: 8 roads
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:62
+┌ Info: 1 settlements
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:63
+┌ Info: 3 cities
+└ @ Catan.BoardApi /home/bryan/Projects/Catan/CatanEngine.jl/src/apis/board_api.jl:64
+┌ Info: Largest Army (8 knights)
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:155
+┌ Info: 1 points from dev cards
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:161
+┌ Info: Player(Dict(:Stone => 1, :Wood => 0, :Grain => 1, :Brick => 18, :Pasture => 10), Dict(:YearOfPlenty => 0, :RoadBuilding => 0, :Monopoly => 0, :VictoryPoint => 1, :Knight => 0), :yellow, Dict(:YearOfPlenty => 2, :RoadBuilding => 1, :Monopoly => 1, :Knight => 8), Dict(:Stone => 4, :Wood => 4, :Grain => 4, :Brick => 4, :Pasture => 2), false, nothing, Dict{String, Any}("DATA_DIR" => ".", "LOGGER_IO" => IOStream(<file test_log.txt>), "MAX_TURNS" => 5000, "SAVE_GAME_TO_FILE" => false, "PRINT_BOARD" => true, "GameSettings" => Dict{String, Any}(), "PlayerSettings" => Dict{String, Any}("cyan" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer"), "yellow" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer"), "blue" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer"), "green" => Dict{String, Any}("TYPE" => "DefaultRobotPlayer")), "LOG_OUTPUT" => "test_log.txt", "SAVE_FILE_IO" => IOStream(<file savefile.txt>), "MAP_FILE" => "./_temp_map_file.csv", "LOG_LEVEL" => Info, "SAVE_FILE" => "savefile.txt", "Tournament" => Dict{String, Any}("GAMES_PER_MAP" => 1, "MAPS_PER_EPOCH" => 1, "NUM_EPOCHS" => 1), "TEAMS" => ["blue", "cyan", "green", "yellow"]))
+└ @ Catan.GameRunner /home/bryan/Projects/Catan/CatanEngine.jl/src/game_runner.jl:163
