@@ -1,2 +1,0 @@
-┌ Debug: starting to read lines
-└ @ Catan /home/bryan/Projects/Catan/CatanEngine.jl/src/io.jl:7

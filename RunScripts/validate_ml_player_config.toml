@@ -6,7 +6,7 @@ LOG_OUTPUT = "./tmp/validate_log.txt"
 #LOG_LEVEL = "Logging.Info"
 LOG_LEVEL = "Logging.Debug"
 PRINT_BOARD = true
-MAX_TURNS = 50
+MAX_TURNS = 500
 TEAMS = ["blue", "cyan", "green", "yellow"]
 
 [Tournament]
