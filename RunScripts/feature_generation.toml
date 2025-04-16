@@ -1,4 +1,3 @@
-DATA_DIR = "."
 SAVE_GAME_TO_FILE = false
 SAVE_FILE = "savefile.txt"
 LOG_OUTPUT = ""
@@ -20,7 +19,7 @@ PUBLIC_MODEL = "../CatanLearning.jl/data/public_model.jls"
 # Features used in the main board state WonGame binary classification model
 FEATURES = "./data/features.csv"
 # Features used in the model that only relies on public information of the board and player state
-PUBLIC_FEATURES = "./data/test_public_features.csv"
+PUBLIC_FEATURES = "./data/public_features.csv"
 [PlayerSettings.blue]
 TYPE = "DefaultRobotPlayer"
 [PlayerSettings.cyan]

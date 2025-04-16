@@ -9,22 +9,23 @@ MAX_TURNS = 500
 TEAMS = ["blue", "cyan", "green", "yellow"]
 
 [Tournament]
-GAMES_PER_MAP = 1
-MAPS_PER_EPOCH = 1
+GAMES_PER_MAP = 10
+MAPS_PER_EPOCH = 10
 # Number of epochs (1 epoch is M*N games) to run
-NUM_EPOCHS = 1
+NUM_EPOCHS = 10
 
 [GameSettings]
 [PlayerSettings]
 MODEL = "../CatanLearning.jl/data/model.jls"
-PUBLIC_MODEL = "../CatanLearning.jl/data/naive_public_model.jls"
 FEATURES = "../CatanLearning.jl/features.csv"
 STATE_VALUES = "../CatanLearning.jl/state_values.csv"
-SEARCH_DEPTH = 2
+SEARCH_DEPTH = 1
 [PlayerSettings.blue]
 TYPE = "EmpathRobotPlayer"
+PUBLIC_MODEL = "../CatanLearning.jl/data/public_model.jls"
 [PlayerSettings.cyan]
 TYPE = "DefaultRobotPlayer"
+PUBLIC_MODEL = "../CatanLearning.jl/data/naive_public_model.jls"
 [PlayerSettings.green]
 TYPE = "DefaultRobotPlayer"
 [PlayerSettings.yellow]
