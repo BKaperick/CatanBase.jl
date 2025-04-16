@@ -1,6 +1,6 @@
 SAVE_GAME_TO_FILE = false
 SAVE_FILE = "savefile.txt"
-LOG_OUTPUT = "test_log.txt"
+LOG_OUTPUT = "./tmp/test_log.txt"
 LOG_LEVEL = "Logging.Info"
 PRINT_BOARD = false
 MAX_TURNS = 5000
