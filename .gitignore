@@ -2,3 +2,4 @@ RunScripts/data
 RunScripts/data/*
 RunScripts/tmp
 RunScripts/tmp/*
+*_tmp_*
