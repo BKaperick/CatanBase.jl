@@ -4,7 +4,7 @@ SAVE_FILE = "savefile.txt"
 LOG_OUTPUT = ""
 LOG_LEVEL = "Logging.Info"
 PRINT_BOARD = false
-MAX_TURNS = 5000
+MAX_TURNS = 1000
 TEAMS = ["blue", "cyan", "green", "yellow"]
 
 [Tournament]
@@ -15,8 +15,13 @@ NUM_EPOCHS = 10
 
 [GameSettings]
 [PlayerSettings]
+MODEL = "../CatanLearning.jl/data/model.jls"
+PUBLIC_MODEL = "../CatanLearning.jl/data/public_model.jls"
+# Features used in the main board state WonGame binary classification model
 FEATURES = "./data/features.csv"
+# Features used in the model that only relies on public information of the board and player state
 PUBLIC_FEATURES = "./data/public_features.csv"
+STATE_VALUES = "../CatanLearning.jl/state_values.csv"
 [PlayerSettings.blue]
 TYPE = "DefaultRobotPlayer"
 [PlayerSettings.cyan]
