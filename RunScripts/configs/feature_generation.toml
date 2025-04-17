@@ -1,31 +1,27 @@
 SAVE_GAME_TO_FILE = false
 SAVE_FILE = "savefile.txt"
-LOG_OUTPUT = "./tmp/validate_log.txt"
-#LOG_OUTPUT = "stderr"
-#LOG_LEVEL = "Logging.Info"
-LOG_LEVEL = "Logging.Debug"
-PRINT_BOARD = true
-MAX_TURNS = 500
+LOG_OUTPUT = ""
+LOG_LEVEL = "Logging.Info"
+PRINT_BOARD = false
+MAX_TURNS = 1000
 TEAMS = ["blue", "cyan", "green", "yellow"]
 
 [Tournament]
-GAMES_PER_MAP = 10
+GAMES_PER_MAP = 100
 MAPS_PER_EPOCH = 10
 # Number of epochs (1 epoch is M*N games) to run
-NUM_EPOCHS = 10
+NUM_EPOCHS = 1
 
 [GameSettings]
 [PlayerSettings]
 MODEL = "../CatanLearning.jl/data/model.jls"
-FEATURES = "../CatanLearning.jl/features.csv"
-STATE_VALUES = "../CatanLearning.jl/state_values.csv"
-SEARCH_DEPTH = 1
-[PlayerSettings.blue]
-TYPE = "EmpathRobotPlayer"
 PUBLIC_MODEL = "../CatanLearning.jl/data/public_model.jls"
+FEATURES = "./data/features.csv"
+PUBLIC_FEATURES = "./data/public_features.csv"
+[PlayerSettings.blue]
+TYPE = "DefaultRobotPlayer"
 [PlayerSettings.cyan]
 TYPE = "DefaultRobotPlayer"
-PUBLIC_MODEL = "../CatanLearning.jl/data/naive_public_model.jls"
 [PlayerSettings.green]
 TYPE = "DefaultRobotPlayer"
 [PlayerSettings.yellow]

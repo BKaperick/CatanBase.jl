@@ -1,6 +1,6 @@
 SAVE_GAME_TO_FILE = false
 SAVE_FILE = "savefile.txt"
-LOG_OUTPUT = ""
+LOG_OUTPUT = "stderr"
 LOG_LEVEL = "Logging.Info"
 PRINT_BOARD = false
 MAX_TURNS = 1000
@@ -16,9 +16,7 @@ NUM_EPOCHS = 1
 [PlayerSettings]
 MODEL = "../CatanLearning.jl/data/model.jls"
 PUBLIC_MODEL = "../CatanLearning.jl/data/public_model.jls"
-# Features used in the main board state WonGame binary classification model
 FEATURES = "./data/features.csv"
-# Features used in the model that only relies on public information of the board and player state
 PUBLIC_FEATURES = "./data/public_features.csv"
 [PlayerSettings.blue]
 TYPE = "DefaultRobotPlayer"
