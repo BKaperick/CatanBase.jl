@@ -1,9 +1,9 @@
 SAVE_GAME_TO_FILE = false
 SAVE_FILE = "savefile.txt"
-LOG_OUTPUT = "./tmp/validate_log.txt"
-#LOG_OUTPUT = "stderr"
-#LOG_LEVEL = "Logging.Info"
-LOG_LEVEL = "Logging.Debug"
+#LOG_OUTPUT = "./tmp/validate_log.txt"
+LOG_OUTPUT = "stderr"
+LOG_LEVEL = "Info"
+#LOG_LEVEL = "Debug"
 PRINT_BOARD = true
 MAX_TURNS = 500
 TEAMS = ["blue", "cyan", "green", "yellow"]
@@ -16,9 +16,10 @@ NUM_EPOCHS = 1
 
 [GameSettings]
 [PlayerSettings]
-MODEL = "../CatanLearning.jl/data/model.jls"
-PUBLIC_MODEL = "../CatanLearning.jl/data/naive_public_model.jls"
-FEATURES = "../CatanLearning.jl/features.csv"
+MODEL = "../CatanLearning.jl/models/model.jls"
+PUBLIC_MODEL = "../CatanLearning.jl/models/public_model.jls"
+FEATURES = "../CatanLearning.jl/data/features.csv"
+PUBLIC_FEATURES = "../CatanLearning.jl/data/public_features.csv"
 STATE_VALUES = "../CatanLearning.jl/state_values.csv"
 SEARCH_DEPTH = 2
 [PlayerSettings.blue]

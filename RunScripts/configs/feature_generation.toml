@@ -3,14 +3,13 @@ SAVE_FILE = "savefile.txt"
 LOG_OUTPUT = ""
 LOG_LEVEL = "Logging.Info"
 PRINT_BOARD = false
-MAX_TURNS = 1000
 TEAMS = ["blue", "cyan", "green", "yellow"]
 
 [Tournament]
 GAMES_PER_MAP = 100
-MAPS_PER_EPOCH = 10
+MAPS_PER_EPOCH = 100
 # Number of epochs (1 epoch is M*N games) to run
-NUM_EPOCHS = 1
+NUM_EPOCHS = 100
 
 [GameSettings]
 [PlayerSettings]

@@ -1,9 +1,8 @@
 SAVE_GAME_TO_FILE = false
 SAVE_FILE = "savefile.txt"
 LOG_OUTPUT = "stderr"
-LOG_LEVEL = "Logging.Info"
+LOG_LEVEL = "Debug"
 PRINT_BOARD = false
-MAX_TURNS = 1000
 TEAMS = ["blue", "cyan", "green", "yellow"]
 
 [Tournament]
@@ -14,8 +13,6 @@ NUM_EPOCHS = 1
 
 [GameSettings]
 [PlayerSettings]
-MODEL = "../CatanLearning.jl/data/model.jls"
-PUBLIC_MODEL = "../CatanLearning.jl/data/public_model.jls"
 FEATURES = "./data/features.csv"
 PUBLIC_FEATURES = "./data/public_features.csv"
 [PlayerSettings.blue]

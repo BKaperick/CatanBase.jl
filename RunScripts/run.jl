@@ -3,9 +3,13 @@ using CatanLearning
 using Profile
 
 function retrain_models(config_file)
-    (configs, player_configs, logger) = Catan.parse_configs(config_file)
-    #CatanLearning.train_and_serialize_model(player_configs["FEATURES"], player_configs["MODEL"])
-    CatanLearning.train_and_serialize_model(player_configs["PUBLIC_FEATURES"], player_configs["PUBLIC_MODEL"])
+    configs = Catan.parse_configs(config_file)
+    player_configs = configs["PlayerSettings"]
+    iter = 1
+    CatanLearning.train_and_serialize_model(player_configs["FEATURES"], player_configs["MODEL"], num_tuning_iterations = 30)
+    CatanLearning.train_and_serialize_model(player_configs["PUBLIC_FEATURES"], player_configs["PUBLIC_MODEL"], num_tuning_iterations = 30)
+    cp(player_configs["PUBLIC_MODEL"], "../CatanLearning.jl/test/data/public_model.jls", force=true)
+    cp(player_configs["MODEL"], "../CatanLearning.jl/test/data/model.jls", force=true)
 end
 
 function run(args::Tuple)
@@ -23,22 +27,22 @@ A bit of a hack.  For parallel runs of fature generation, to stop locking issues
 random number to CLI via bash script so each worker is writing to a different file.
 """
 function run(config_file::String, file_suffix)
-    (configs, player_configs, logger) = Catan.parse_configs(config_file)
+    configs = Catan.parse_configs(config_file)
     configs["PlayerSettings"]["FEATURES"] = replace(configs["PlayerSettings"]["FEATURES"], ".csv" => "_$file_suffix.csv")
     configs["PlayerSettings"]["PUBLIC_FEATURES"] = replace(configs["PlayerSettings"]["PUBLIC_FEATURES"], ".csv" => "_$file_suffix.csv")
-    player_schemas = Catan.read_player_constructors_from_config(player_configs)
+    player_schemas = Catan.read_player_constructors_from_config(configs["PlayerSettings"])
     CatanLearning.run(player_schemas, configs)
 end
 
 function run(config_file::String)
-    (configs, player_configs, logger) = Catan.parse_configs(config_file)
-    player_schemas = Catan.read_player_constructors_from_config(player_configs)
+    configs = Catan.parse_configs(config_file)
+    player_schemas = Catan.read_player_constructors_from_config(configs["PlayerSettings"])
     CatanLearning.run(player_schemas, configs)
 end
 
 function profile_run(config_file)
-    (configs, player_configs, logger) = Catan.parse_configs(config_file)
-    player_schemas = Catan.read_player_constructors_from_config(player_configs)
+    configs = Catan.parse_configs(config_file)
+    player_schemas = Catan.read_player_constructors_from_config(configs["PlayerSettings"])
     @profile CatanLearning.run(player_schemas, configs)
     #Profile.print(open("prof.txt", "w"), format=:flat, sortedby=:count, mincount=100)
     open("./tmp/prof.txt", "w") do s
