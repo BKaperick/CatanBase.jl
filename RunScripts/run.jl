@@ -42,8 +42,9 @@ end
 
 function profile_run(config_file)
     configs = Catan.parse_configs(config_file)
-    player_schemas = Catan.read_player_constructors_from_config(configs["PlayerSettings"])
-    @profile CatanLearning.run(player_schemas, configs)
+    @profile Catan.run(configs)
+    #player_schemas = Catan.read_player_constructors_from_config(configs["PlayerSettings"])
+    #@profile CatanLearning.run(player_schemas, configs)
     #Profile.print(open("prof.txt", "w"), format=:flat, sortedby=:count, mincount=100)
     open("./tmp/prof.txt", "w") do s
         Profile.print(IOContext(s, :displaysize => (24, 500)), sortedby=:count, mincount=100)
