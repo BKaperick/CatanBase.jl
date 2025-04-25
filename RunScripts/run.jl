@@ -60,28 +60,47 @@ function benchmark_dry_run(config_file::String)
 end
 
 function benchmark_run(config_file::String, output_file)
+    trials = []
     configs = Catan.parse_configs(config_file)
     io = open(output_file, "w")
-    t1 = benchmark_run(configs)
-    println(io, "4 DefaultRobotPlayers - 10 turns - no saving or logging")
-    show(io, MIME"text/plain"(), t1)
     
-    print(io, "\n\n")
+    push!(trials, benchmark_run(configs, io, "4 DefaultRobotPlayers - $(configs["MAX_TURNS"]) turns - no saving or logging"))
+
+    configs["MAX_TURNS"] = 20
+    push!(trials, benchmark_run(configs, io, "4 DefaultRobotPlayers - $(configs["MAX_TURNS"]) turns - no saving or logging"))
+
+    configs["MAX_TURNS"] = 30
+    push!(trials, benchmark_run(configs, io, "4 DefaultRobotPlayers - $(configs["MAX_TURNS"]) turns - no saving or logging"))
     
+    configs["MAX_TURNS"] = 10
     configs["PlayerSettings"]["blue"]["TYPE"] = "EmpathRobotPlayer"
     configs["PlayerSettings"]["blue"]["SEARCH_DEPTH"] = 1
-    t2 = benchmark_run(configs)
-    println(io, "1 EmpathRobotPlayer(SEARCH_DEPTH=1) - 10 turns - no saving or logging")
-    show(io, MIME"text/plain"(), t2)
+    push!(trials, benchmark_run(configs, io, "1 EmpathRobotPlayer(SEARCH_DEPTH=1) - $(configs["MAX_TURNS"]) turns - no saving or logging"))
     
+    configs["MAX_TURNS"] = 20
+    push!(trials, benchmark_run(configs, io, "1 EmpathRobotPlayer(SEARCH_DEPTH=1) - $(configs["MAX_TURNS"]) turns - no saving or logging"))
+    
+    configs["MAX_TURNS"] = 30
+    push!(trials, benchmark_run(configs, io, "1 EmpathRobotPlayer(SEARCH_DEPTH=1) - $(configs["MAX_TURNS"]) turns - no saving or logging"))
+
+
     close(io)
-    return [t1, t2]
+    return trials
 end
 
-function benchmark_run(configs::Dict)
-    b = @benchmarkable Catan.run($configs) seconds=30
+function benchmark_run(configs::Dict, io, descr)
+    b = @benchmarkable Catan.run($configs) seconds=10
     t = BenchmarkTools.run(b)
+
+    # Print to REPL
     show(stdout, MIME"text/plain"(), t)
+    println("")
+
+    # Save to IO
+    println(io, descr)
+    show(io, MIME"text/plain"(), t)
+    print(io, "\n\n")
+
     return t
 end
 

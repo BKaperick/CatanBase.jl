@@ -1,23 +1,72 @@
 4 DefaultRobotPlayers - 10 turns - no saving or logging
-BenchmarkTools.Trial: 8893 samples with 1 evaluation per sample.
- Range (min … max):  1.836 ms … 249.016 ms  ┊ GC (min … max): 0.00% …  0.00%
- Time  (median):     2.758 ms               ┊ GC (median):    0.00%
- Time  (mean ± σ):   3.361 ms ±   3.031 ms  ┊ GC (mean ± σ):  8.89% ± 14.52%
+BenchmarkTools.Trial: 2875 samples with 1 evaluation per sample.
+ Range (min … max):  1.934 ms … 204.142 ms  ┊ GC (min … max):  0.00% … 98.35%
+ Time  (median):     2.831 ms               ┊ GC (median):     0.00%
+ Time  (mean ± σ):   3.468 ms ±   4.018 ms  ┊ GC (mean ± σ):  10.41% ± 14.13%
 
-    ▁▆█▆▅▄▂                                                    
-  ▁▄████████▆▆▅▅▄▄▄▃▃▃▃▃▃▃▃▃▃▃▂▂▂▂▁▁▂▁▂▁▁▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁ ▃
-  1.84 ms         Histogram: frequency by time        8.34 ms <
+    ▂▇█▆▃▂                                                     
+  ▂▇███████▇▆▅▅▅▅▄▃▃▄▃▃▃▃▃▂▃▂▂▂▂▂▂▂▂▂▂▁▁▂▁▂▂▁▂▂▂▁▁▁▁▁▂▁▁▁▁▁▁▂ ▃
+  1.93 ms         Histogram: frequency by time        8.57 ms <
 
- Memory estimate: 2.59 MiB, allocs estimate: 54296.
+ Memory estimate: 2.62 MiB, allocs estimate: 54917.
+
+4 DefaultRobotPlayers - 20 turns - no saving or logging
+BenchmarkTools.Trial: 1553 samples with 1 evaluation per sample.
+ Range (min … max):  3.297 ms … 230.138 ms  ┊ GC (min … max):  0.00% … 94.59%
+ Time  (median):     5.876 ms               ┊ GC (median):     0.00%
+ Time  (mean ± σ):   6.428 ms ±   5.993 ms  ┊ GC (mean ± σ):  10.03% ± 13.53%
+
+      ▂▁▄▃▇▄▇▄▆█▃▅▃▄▁▂▃▃▃▁▁                                    
+  ▂▂▅▇███████████████████████▆▆▇▅▄▆▃▄▄▄▂▄▃▅▄▄▄▂▄▄▃▃▃▃▂▂▂▂▂▂▁▂ ▄
+  3.3 ms          Histogram: frequency by time        11.9 ms <
+
+ Memory estimate: 4.48 MiB, allocs estimate: 101380.
+
+4 DefaultRobotPlayers - 30 turns - no saving or logging
+BenchmarkTools.Trial: 1068 samples with 1 evaluation per sample.
+ Range (min … max):  4.651 ms … 228.050 ms  ┊ GC (min … max):  0.00% … 95.56%
+ Time  (median):     8.874 ms               ┊ GC (median):     0.00%
+ Time  (mean ± σ):   9.349 ms ±   7.246 ms  ┊ GC (mean ± σ):  10.86% ± 13.59%
+
+     ▆▃▂▅█▇▃▂▅▅▄▁▁▁▃▁▂▄▃▂▆▂▇█▂▂  ▁   ▁ ▁                       
+  ▃▅▅█████████████████████████████▇█▆█▅█▆▇▅▇██▄▅▆▇▅▇▄▄▄▄▃▂▁▃▃ ▆
+  4.65 ms         Histogram: frequency by time        16.1 ms <
+
+ Memory estimate: 6.38 MiB, allocs estimate: 150513.
 
 1 EmpathRobotPlayer(SEARCH_DEPTH=1) - 10 turns - no saving or logging
-BenchmarkTools.Trial: 264 samples with 1 evaluation per sample.
- Range (min … max):   36.247 ms … 367.877 ms  ┊ GC (min … max):  8.11% … 63.03%
- Time  (median):      91.024 ms               ┊ GC (median):     6.36%
- Time  (mean ± σ):   113.823 ms ±  73.639 ms  ┊ GC (mean ± σ):  31.96% ± 23.52%
+BenchmarkTools.Trial: 86 samples with 1 evaluation per sample.
+ Range (min … max):   36.996 ms … 488.433 ms  ┊ GC (min … max):  0.00% …  6.28%
+ Time  (median):      87.481 ms               ┊ GC (median):     7.23%
+ Time  (mean ± σ):   116.275 ms ±  88.314 ms  ┊ GC (mean ± σ):  29.94% ± 22.16%
 
-    ▆   █▂  ▂▄▆▂▁                                                
-  ▃▆█▆▆▆██▇▆█████▄▆▇█▄▆▃▃▃▃▃▃▁▁▃▁▁▁▁▃▁▁▁▁▁▁▁▁▃▃▃▁▅▃▃▃▄▄▃▄▃▃▃▄▃▃ ▃
-  36.2 ms          Histogram: frequency by time          316 ms <
+  ▁▄   █▅  ▁                                                     
+  ██▆▃███▅████▃█▅▆▃▆▃▃▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▃▅▁▁▃▁▁▁▁▁▃▅▃▁▅▁▁▁▁▁▁▁▁▁▁▃ ▁
+  37 ms            Histogram: frequency by time          391 ms <
 
- Memory estimate: 45.74 MiB, allocs estimate: 461383.
+ Memory estimate: 45.38 MiB, allocs estimate: 456545.
+
+1 EmpathRobotPlayer(SEARCH_DEPTH=1) - 20 turns - no saving or logging
+BenchmarkTools.Trial: 56 samples with 1 evaluation per sample.
+ Range (min … max):   67.693 ms … 452.522 ms  ┊ GC (min … max):  3.64% … 50.98%
+ Time  (median):     141.886 ms               ┊ GC (median):     8.34%
+ Time  (mean ± σ):   185.935 ms ± 106.375 ms  ┊ GC (mean ± σ):  32.36% ± 23.32%
+
+     ▅▂   ▅█ ▂▅                                                  
+  █▁▅██▁█▅████████▁▁█▁▁▁▁▅▁▅▁▅▁▁▅▁▅▁█▁▁▁▁▁▁▁▁▅▅▅▅▁▅▁▁▅▁▁▁▁▅▁▁▅▅ ▁
+  67.7 ms          Histogram: frequency by time          438 ms <
+
+ Memory estimate: 53.78 MiB, allocs estimate: 603240.
+
+1 EmpathRobotPlayer(SEARCH_DEPTH=1) - 30 turns - no saving or logging
+BenchmarkTools.Trial: 43 samples with 1 evaluation per sample.
+ Range (min … max):  105.949 ms … 608.799 ms  ┊ GC (min … max):  5.59% … 40.72%
+ Time  (median):     180.803 ms               ┊ GC (median):     9.18%
+ Time  (mean ± σ):   236.509 ms ± 122.529 ms  ┊ GC (mean ± σ):  30.46% ± 21.08%
+
+  ▄ ▁▁ █▄ █▄▄  ▁         ▁              ▁                        
+  █▁██▆██▁███▆▁█▁▆▆▁▆▁▁▁▁█▁▁▁▆▁▆▁▁▁▁▁▆▆▁█▁▆▆▁▁▁▁▁▆▁▁▁▁▁▁▁▁▁▁▁▁▆ ▁
+  106 ms           Histogram: frequency by time          609 ms <
+
+ Memory estimate: 88.47 MiB, allocs estimate: 1159173.
+
