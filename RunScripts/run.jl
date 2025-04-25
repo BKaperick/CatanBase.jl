@@ -1,6 +1,7 @@
 using Catan
 using CatanLearning
 using Profile
+using BenchmarkTools
 
 function retrain_models(config_file)
     configs = Catan.parse_configs(config_file)
@@ -43,12 +44,40 @@ end
 function profile_run(config_file)
     configs = Catan.parse_configs(config_file)
     @profile Catan.run(configs)
-    #player_schemas = Catan.read_player_constructors_from_config(configs["PlayerSettings"])
-    #@profile CatanLearning.run(player_schemas, configs)
-    #Profile.print(open("prof.txt", "w"), format=:flat, sortedby=:count, mincount=100)
     open("./tmp/prof.txt", "w") do s
         Profile.print(IOContext(s, :displaysize => (24, 500)), sortedby=:count, mincount=100)
     end
+end
+
+function benchmark_dry_run(config_file::String)
+    configs = Catan.parse_configs(config_file)
+    configs["PlayerSettings"]["blue"]["TYPE"] = "EmpathRobotPlayer"
+    configs["PlayerSettings"]["blue"]["SEARCH_DEPTH"] = 1
+    configs["LOG_OUTPUT"] = "stderr"
+    configs["LOG_LEVEL"] = "Info"
+    Catan.parse_logging_configs!(configs)
+    Catan.run(configs)
+end
+
+function benchmark_run(config_file::String, output_file)
+    configs = Catan.parse_configs(config_file)
+    io = open(output_file, "w")
+    t1 = benchmark_run(configs)
+    show(io, MIME"text/plain"(), t1)
+    
+    configs["PlayerSettings"]["blue"]["TYPE"] = "EmpathRobotPlayer"
+    configs["PlayerSettings"]["blue"]["SEARCH_DEPTH"] = 1
+    t2 = benchmark_run(configs)
+    show(io, MIME"text/plain"(), t2)
+    
+    close(io)
+    return [t1, t2]
+end
+function benchmark_run(configs::Dict)
+    b = @benchmarkable Catan.run($configs) seconds=30
+    t = BenchmarkTools.run(b)
+    show(stdout, MIME"text/plain"(), t)
+    return t
 end
 
 if ~isinteractive() && length(ARGS) > 0
