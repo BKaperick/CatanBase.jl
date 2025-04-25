@@ -63,16 +63,21 @@ function benchmark_run(config_file::String, output_file)
     configs = Catan.parse_configs(config_file)
     io = open(output_file, "w")
     t1 = benchmark_run(configs)
+    println(io, "4 DefaultRobotPlayers - 10 turns - no saving or logging")
     show(io, MIME"text/plain"(), t1)
+    
+    print(io, "\n\n")
     
     configs["PlayerSettings"]["blue"]["TYPE"] = "EmpathRobotPlayer"
     configs["PlayerSettings"]["blue"]["SEARCH_DEPTH"] = 1
     t2 = benchmark_run(configs)
+    println(io, "1 EmpathRobotPlayer(SEARCH_DEPTH=1) - 10 turns - no saving or logging")
     show(io, MIME"text/plain"(), t2)
     
     close(io)
     return [t1, t2]
 end
+
 function benchmark_run(configs::Dict)
     b = @benchmarkable Catan.run($configs) seconds=30
     t = BenchmarkTools.run(b)
