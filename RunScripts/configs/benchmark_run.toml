@@ -6,6 +6,7 @@ LOG_OUTPUT = ""
 PRINT_BOARD = false
 TEAMS = ["blue", "cyan", "green", "yellow"]
 MAX_TURNS = 10
+BENCHMARK_OUTPUT = "benchmark_out_2.txt"
 
 [GameSettings]
 VICTORY_POINT_GOAL = 1000

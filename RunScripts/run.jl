@@ -59,9 +59,10 @@ function benchmark_dry_run(config_file::String)
     Catan.run(configs)
 end
 
-function benchmark_run(config_file::String, output_file)
+function benchmark_run(config_file::String)
     trials = []
     configs = Catan.parse_configs(config_file)
+    output_file = configs["BENCHMARK_OUTPUT"]
     io = open(output_file, "w")
     
     push!(trials, benchmark_run(configs, io, "4 DefaultRobotPlayers - $(configs["MAX_TURNS"]) turns - no saving or logging"))
