@@ -1,7 +1,9 @@
+using Revise
 using Catan
 using CatanLearning
 using Profile
 using BenchmarkTools
+using ProfileView
 
 function retrain_models(config_file)
     configs = Catan.parse_configs(config_file)
@@ -41,12 +43,30 @@ function run(config_file::String)
     CatanLearning.run(player_schemas, configs)
 end
 
+function profile_simple_run(config_file)
+
+    # Setup and run first turn before profiling starts
+    configs = Catan.parse_configs(config_file)
+    players = Catan.read_players_from_config(configs)
+    game = Game(players, configs)
+    board = GameRunner.initialize_game!(game)
+    GameRunner.do_first_turn(game, board, game.players)
+
+    @profile GameRunner.do_rest_of_game!(game, board)
+    open("./tmp/prof.txt", "w") do s
+        Profile.print(IOContext(s, :displaysize => (24, 500)), sortedby=:count, mincount=40)
+    end
+end
+
 function profile_run(config_file)
     configs = Catan.parse_configs(config_file)
+    @profview Catan.run(configs)
+    #=
     @profile Catan.run(configs)
     open("./tmp/prof.txt", "w") do s
         Profile.print(IOContext(s, :displaysize => (24, 500)), sortedby=:count, mincount=100)
     end
+    =#
 end
 
 function benchmark_dry_run(config_file::String)
@@ -57,6 +77,33 @@ function benchmark_dry_run(config_file::String)
     configs["LOG_LEVEL"] = "Info"
     Catan.parse_logging_configs!(configs)
     Catan.run(configs)
+end
+
+function threading_benchmark_run(config_file::String)
+    trials = []
+    configs = Catan.parse_configs(config_file)
+    player_schemas = Catan.read_player_constructors_from_config(configs["PlayerSettings"])
+    
+    println("ASYNC = true | $(Threads.nthreads()) threads")
+    configs["ASYNC"] = true
+    t = BenchmarkTools.run(@benchmarkable CatanLearning.run($player_schemas, $configs) seconds=10)
+    #t = BenchmarkTools.run(@benchmarkable Catan.run($configs) seconds=10)
+    show(stdout, MIME"text/plain"(), t)
+    println("")
+    
+    println("ASYNC = false | $(Threads.nthreads()) threads")
+    configs["ASYNC"] = false
+    t = BenchmarkTools.run(@benchmarkable CatanLearning.run($player_schemas, $configs) seconds=10)
+    #t = BenchmarkTools.run(@benchmarkable Catan.run($configs) seconds=10)
+    show(stdout, MIME"text/plain"(), t)
+    println("")
+    
+    #=
+    configs["MAX_TURNS"] = 500
+    t = BenchmarkTools.run(@benchmarkable Catan.run($configs) seconds=10)
+    show(stdout, MIME"text/plain"(), t)
+    println("")
+    =#
 end
 
 function benchmark_run(config_file::String)
@@ -72,7 +119,10 @@ function benchmark_run(config_file::String)
 
     configs["MAX_TURNS"] = 30
     push!(trials, benchmark_run(configs, io, "4 DefaultRobotPlayers - $(configs["MAX_TURNS"]) turns - no saving or logging"))
-    
+
+    configs["MAX_TURNS"] = 40
+    push!(trials, benchmark_run(configs, io, "4 DefaultRobotPlayers - $(configs["MAX_TURNS"]) turns - no saving or logging"))
+    #=    
     configs["MAX_TURNS"] = 10
     configs["PlayerSettings"]["blue"]["TYPE"] = "EmpathRobotPlayer"
     configs["PlayerSettings"]["blue"]["SEARCH_DEPTH"] = 1
@@ -83,7 +133,7 @@ function benchmark_run(config_file::String)
     
     configs["MAX_TURNS"] = 30
     push!(trials, benchmark_run(configs, io, "1 EmpathRobotPlayer(SEARCH_DEPTH=1) - $(configs["MAX_TURNS"]) turns - no saving or logging"))
-
+    =#
 
     close(io)
     return trials

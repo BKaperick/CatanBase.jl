@@ -5,17 +5,25 @@ SAVE_GAME_TO_FILE = false
 LOG_OUTPUT = ""
 PRINT_BOARD = false
 TEAMS = ["blue", "cyan", "green", "yellow"]
-MAX_TURNS = 10
-BENCHMARK_OUTPUT = "benchmark_baseline_20250430.txt"
+
+[Tournament]
+GAMES_PER_MAP = 1
+MAPS_PER_EPOCH = 1
+# Number of epochs (1 epoch is M*N games) to run
+NUM_EPOCHS = 1
 
 [GameSettings]
-VICTORY_POINT_GOAL = 1000
+KNIGHT = 0
+ROAD_BUILDING = 0
+YEAR_OF_PLENTY = 0
+MONOPOLY = 0
+VICTORY_POINT = 0
 
 [PlayerSettings]
 MODEL = "../CatanLearning.jl/models/model.jls"
 PUBLIC_MODEL = "../CatanLearning.jl/models/public_model.jls"
-FEATURES = "./tmp/features.csv"
-PUBLIC_FEATURES = "./tmp/public_features.csv"
+FEATURES = "../CatanLearning.jl/data/features.csv"
+PUBLIC_FEATURES = "../CatanLearning.jl/data/public_features.csv"
 STATE_VALUES = "../CatanLearning.jl/state_values.csv"
 SEARCH_DEPTH = 2
 [PlayerSettings.blue]
@@ -26,9 +34,3 @@ TYPE = "DefaultRobotPlayer"
 TYPE = "DefaultRobotPlayer"
 [PlayerSettings.yellow]
 TYPE = "DefaultRobotPlayer"
-
-[Tournament]
-GAMES_PER_MAP = 25
-MAPS_PER_EPOCH = 1
-# Number of epochs (1 epoch is M*N games) to run
-NUM_EPOCHS = 1
