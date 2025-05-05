@@ -37,6 +37,11 @@ function run(config_file::String, file_suffix)
     CatanLearning.run(player_schemas, configs)
 end
 
+function run_async(config_file::String)
+    configs = Catan.parse_configs(config_file)
+    CatanLearning.run_tournament_async(configs)
+end
+
 function run(config_file::String)
     configs = Catan.parse_configs(config_file)
     player_schemas = Catan.read_player_constructors_from_config(configs["PlayerSettings"])

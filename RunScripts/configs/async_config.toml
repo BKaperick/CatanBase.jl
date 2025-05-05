@@ -1,0 +1,42 @@
+SAVE_GAME_TO_FILE = false
+#LOG_OUTPUT = "./tmp/validate_log.txt"
+LOG_LEVEL = "Info"
+#LOG_OUTPUT = "stderr"
+LOG_OUTPUT = ""
+PRINT_BOARD = false
+TEAMS = ["blue", "cyan", "green", "yellow"]
+MAX_TURNS = 10
+BENCHMARK_OUTPUT = "benchmark_baseline_20250430.txt"
+
+[GameSettings]
+VICTORY_POINT_GOAL = 1000
+
+[PlayerSettings]
+MODEL = "../CatanLearning.jl/models/model.jls"
+PUBLIC_MODEL = "../CatanLearning.jl/models/public_model.jls"
+FEATURES = "./tmp/features.csv"
+PUBLIC_FEATURES = "./tmp/public_features.csv"
+STATE_VALUES = "../CatanLearning.jl/state_values.csv"
+SEARCH_DEPTH = 2
+[PlayerSettings.blue]
+TYPE = "DefaultRobotPlayer"
+[PlayerSettings.cyan]
+TYPE = "DefaultRobotPlayer"
+[PlayerSettings.green]
+TYPE = "DefaultRobotPlayer"
+[PlayerSettings.yellow]
+TYPE = "DefaultRobotPlayer"
+
+[Tournament]
+GAMES_PER_MAP = 2
+MAPS_PER_EPOCH = 2
+# Number of epochs (1 epoch is M*N games) to run
+NUM_EPOCHS = 2
+
+[Async]
+CHANNELS = ["main", "public"]
+[Async.main]
+SIZE = 32
+[Async.public]
+SIZE = 32
+
