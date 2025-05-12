@@ -4,6 +4,7 @@ using CatanLearning
 using Profile
 using BenchmarkTools
 using ProfileView
+using Base.Threads
 
 function retrain_models(config_file)
     configs = Catan.parse_configs(config_file)
@@ -38,8 +39,30 @@ function run(config_file::String, file_suffix)
 end
 
 function run_async(config_file::String)
+    println("num threads $(Threads.nthreads())")
     configs = Catan.parse_configs(config_file)
-    CatanLearning.run_tournament_async(configs)
+    @show @btime CatanLearning.run_tournament_async($configs)
+end
+
+
+
+function run_async_benchmark(config_file::String)
+    configs = Catan.parse_configs(config_file)
+    
+    b = @benchmarkable CatanLearning.run_tournament_async($configs) seconds=30
+    t = BenchmarkTools.run(b)
+
+    # Print to REPL
+    show(stdout, MIME"text/plain"(), t)
+    println("")
+
+    # Save to IO
+    #println(io, descr)
+    #show(io, MIME"text/plain"(), t)
+    #print(io, "\n\n")
+
+    #return t
+
 end
 
 function run(config_file::String)
