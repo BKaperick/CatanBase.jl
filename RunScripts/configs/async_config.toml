@@ -37,7 +37,9 @@ NUM_EPOCHS = 1
 [Async]
 CHANNELS = ["main", "public"]
 [Async.main]
-SIZE = 32
+#SIZE = 32
+SIZE = 64
 [Async.public]
-SIZE = 32
+#SIZE = 32
+SIZE = 64
 

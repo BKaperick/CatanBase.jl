@@ -1,0 +1,201 @@
+
+
+num threads 1 - channel size 8
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 21.940 s (55.72% GC) to evaluate,
+ with a memory estimate of 11.62 GiB, over 380767628 allocations.
+
+num threads 1 - channel size 16
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 20.915 s (54.15% GC) to evaluate,
+ with a memory estimate of 11.65 GiB, over 381639032 allocations.
+
+num threads 1 - channel size 24
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 20.012 s (51.56% GC) to evaluate,
+ with a memory estimate of 11.68 GiB, over 382482279 allocations.
+
+num threads 1 - channel size 32
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 20.719 s (53.35% GC) to evaluate,
+ with a memory estimate of 11.70 GiB, over 383268076 allocations.
+
+num threads 1 - channel size 64
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 20.160 s (51.61% GC) to evaluate,
+ with a memory estimate of 11.72 GiB, over 384116469 allocations.
+
+num threads 2 - channel size 8
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 21.006 s (53.87% GC) to evaluate,
+ with a memory estimate of 11.76 GiB, over 385079913 allocations.
+
+num threads 2 - channel size 16
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 20.894 s (53.21% GC) to evaluate,
+ with a memory estimate of 11.78 GiB, over 385878740 allocations.
+
+num threads 2 - channel size 24
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 19.720 s (50.45% GC) to evaluate,
+ with a memory estimate of 11.81 GiB, over 386751857 allocations.
+
+num threads 2 - channel size 32
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 22.052 s (55.45% GC) to evaluate,
+ with a memory estimate of 11.83 GiB, over 387527899 allocations.
+
+num threads 2 - channel size 64
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 18.597 s (46.23% GC) to evaluate,
+ with a memory estimate of 11.85 GiB, over 388361069 allocations.
+
+num threads 4 - channel size 8
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 16.049 s (38.74% GC) to evaluate,
+ with a memory estimate of 11.88 GiB, over 389317518 allocations.
+
+num threads 4 - channel size 16
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 15.253 s (35.28% GC) to evaluate,
+ with a memory estimate of 11.91 GiB, over 390118805 allocations.
+
+num threads 4 - channel size 24
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 15.226 s (33.65% GC) to evaluate,
+ with a memory estimate of 11.93 GiB, over 390914092 allocations.
+
+num threads 4 - channel size 32
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 15.005 s (34.15% GC) to evaluate,
+ with a memory estimate of 11.96 GiB, over 391800388 allocations.
+
+num threads 4 - channel size 64
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 16.515 s (38.97% GC) to evaluate,
+ with a memory estimate of 11.98 GiB, over 392576876 allocations.
+
+num threads 8 - channel size 8
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 12.938 s (21.19% GC) to evaluate,
+ with a memory estimate of 12.02 GiB, over 393608100 allocations.
+
+num threads 8 - channel size 16
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 14.228 s (28.24% GC) to evaluate,
+ with a memory estimate of 12.04 GiB, over 394376501 allocations.
+
+num threads 8 - channel size 24
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 13.636 s (27.24% GC) to evaluate,
+ with a memory estimate of 12.07 GiB, over 395260453 allocations.
+
+num threads 8 - channel size 32
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 14.148 s (29.59% GC) to evaluate,
+ with a memory estimate of 12.09 GiB, over 396041309 allocations.
+
+num threads 8 - channel size 64
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 14.105 s (29.26% GC) to evaluate,
+ with a memory estimate of 12.11 GiB, over 396853861 allocations.
+
+num threads 16 - channel size 8
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 12.659 s (20.00% GC) to evaluate,
+ with a memory estimate of 12.14 GiB, over 397826148 allocations.
+
+num threads 16 - channel size 16
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 14.080 s (24.54% GC) to evaluate,
+ with a memory estimate of 12.17 GiB, over 398654097 allocations.
+
+num threads 16 - channel size 24
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 14.421 s (28.17% GC) to evaluate,
+ with a memory estimate of 12.19 GiB, over 399499637 allocations.
+
+num threads 16 - channel size 32
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 13.016 s (21.03% GC) to evaluate,
+ with a memory estimate of 12.21 GiB, over 400256842 allocations.
+
+num threads 16 - channel size 64
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 12.373 s (16.82% GC) to evaluate,
+ with a memory estimate of 12.24 GiB, over 401130519 allocations.
+
+num threads 16 - channel size 8
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 12.962 s (20.67% GC) to evaluate,
+ with a memory estimate of 12.27 GiB, over 401998924 allocations.
+
+num threads 16 - channel size 16
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 13.736 s (23.53% GC) to evaluate,
+ with a memory estimate of 12.30 GiB, over 402881585 allocations.
+
+num threads 16 - channel size 24
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 12.297 s (15.23% GC) to evaluate,
+ with a memory estimate of 12.32 GiB, over 403709576 allocations.
+
+num threads 16 - channel size 32
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 12.449 s (16.96% GC) to evaluate,
+ with a memory estimate of 12.35 GiB, over 404578466 allocations.
+
+num threads 16 - channel size 64
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 13.292 s (20.98% GC) to evaluate,
+ with a memory estimate of 12.37 GiB, over 405378253 allocations.
+
+num threads 4 - channel size 8
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 16.392 s (36.45% GC) to evaluate,
+ with a memory estimate of 12.40 GiB, over 406307522 allocations.
+
+num threads 4 - channel size 16
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 13.880 s (23.41% GC) to evaluate,
+ with a memory estimate of 12.42 GiB, over 407137306 allocations.
+
+num threads 4 - channel size 24
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 18.464 s (42.59% GC) to evaluate,
+ with a memory estimate of 12.45 GiB, over 407934999 allocations.
+
+num threads 4 - channel size 32
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 13.588 s (22.59% GC) to evaluate,
+ with a memory estimate of 12.48 GiB, over 408876716 allocations.
+
+num threads 4 - channel size 64
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 14.536 s (30.89% GC) to evaluate,
+ with a memory estimate of 12.50 GiB, over 409634162 allocations.
+
+num threads 8 - channel size 8
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 13.870 s (25.15% GC) to evaluate,
+ with a memory estimate of 12.53 GiB, over 410580983 allocations.
+
+num threads 8 - channel size 16
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 14.455 s (27.18% GC) to evaluate,
+ with a memory estimate of 12.55 GiB, over 411379517 allocations.
+
+num threads 8 - channel size 24
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 14.116 s (25.43% GC) to evaluate,
+ with a memory estimate of 12.58 GiB, over 412259801 allocations.
+
+num threads 8 - channel size 32
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 13.819 s (23.53% GC) to evaluate,
+ with a memory estimate of 12.61 GiB, over 413062099 allocations.
+
+num threads 8 - channel size 64
+BenchmarkTools.Trial: 1 sample with 1 evaluation per sample.
+ Single result which took 13.296 s (21.74% GC) to evaluate,
+ with a memory estimate of 12.63 GiB, over 413838863 allocations.
