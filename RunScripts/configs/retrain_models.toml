@@ -13,6 +13,8 @@ NUM_EPOCHS = 1
 
 [GameSettings]
 [PlayerSettings]
+MODEL = "../CatanLearning.jl/models/model.jls"
+PUBLIC_MODEL = "../CatanLearning.jl/models/public_model.jls"
 FEATURES = "./data/features.csv"
 PUBLIC_FEATURES = "./data/public_features.csv"
 [PlayerSettings.blue]

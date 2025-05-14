@@ -6,7 +6,7 @@ LOG_OUTPUT = ""
 PRINT_BOARD = false
 TEAMS = ["blue", "cyan", "green", "yellow"]
 MAX_TURNS = 10
-BENCHMARK_OUTPUT = "benchmark_baseline_20250512.txt"
+BENCHMARK_OUTPUT = "async_julia_11.txt"
 WRITE_FEATURES = true
 
 [GameSettings]
@@ -29,17 +29,15 @@ TYPE = "DefaultRobotPlayer"
 TYPE = "DefaultRobotPlayer"
 
 [Tournament]
-GAMES_PER_MAP = 10
-MAPS_PER_EPOCH = 1
+GAMES_PER_MAP = 3
+MAPS_PER_EPOCH = 3
 # Number of epochs (1 epoch is M*N games) to run
 NUM_EPOCHS = 1
 
 [Async]
 CHANNELS = ["main", "public"]
 [Async.main]
-#SIZE = 32
 SIZE = 64
 [Async.public]
-#SIZE = 32
 SIZE = 64
 

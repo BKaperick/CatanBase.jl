@@ -1,0 +1,61 @@
+
+
+num threads 1 - channel size 64
+BenchmarkTools.Trial: 5 samples with 1 evaluation per sample.
+ Range (min … max):  13.238 s …   13.628 s  ┊ GC (min … max): 24.82% … 26.26%
+ Time  (median):     13.393 s               ┊ GC (median):    25.20%
+ Time  (mean ± σ):   13.402 s ± 142.123 ms  ┊ GC (mean ± σ):  25.55% ±  0.66%
+
+  █               █      ██                                 █  
+  █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁██▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█ ▁
+  13.2 s          Histogram: frequency by time         13.6 s <
+
+ Memory estimate: 11.50 GiB, allocs estimate: 376975117.
+
+num threads 2 - channel size 64
+BenchmarkTools.Trial: 5 samples with 1 evaluation per sample.
+ Range (min … max):  12.311 s …   12.948 s  ┊ GC (min … max): 26.50% … 28.90%
+ Time  (median):     12.571 s               ┊ GC (median):    27.73%
+ Time  (mean ± σ):   12.586 s ± 232.113 ms  ┊ GC (mean ± σ):  27.77% ±  0.86%
+
+  █               █       █  █                              █  
+  █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁▁█▁▁█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█ ▁
+  12.3 s          Histogram: frequency by time         12.9 s <
+
+ Memory estimate: 11.55 GiB, allocs estimate: 378417263.
+
+num threads 4 - channel size 64
+BenchmarkTools.Trial: 5 samples with 1 evaluation per sample.
+ Range (min … max):  12.056 s …  12.294 s  ┊ GC (min … max): 23.29% … 24.12%
+ Time  (median):     12.256 s              ┊ GC (median):    24.11%
+ Time  (mean ± σ):   12.218 s ± 95.562 ms  ┊ GC (mean ± σ):  23.95% ±  0.40%
+
+  █                                    █          █   █    █  
+  █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁▁█▁▁▁█▁▁▁▁█ ▁
+  12.1 s         Histogram: frequency by time         12.3 s <
+
+ Memory estimate: 11.59 GiB, allocs estimate: 379850811.
+
+num threads 8 - channel size 64
+BenchmarkTools.Trial: 5 samples with 1 evaluation per sample.
+ Range (min … max):  12.237 s …  12.491 s  ┊ GC (min … max): 19.19% … 19.61%
+ Time  (median):     12.351 s              ┊ GC (median):    19.22%
+ Time  (mean ± σ):   12.366 s ± 99.129 ms  ┊ GC (mean ± σ):  19.41% ±  0.26%
+
+  █                 █      █                  █            █  
+  █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁█ ▁
+  12.2 s         Histogram: frequency by time         12.5 s <
+
+ Memory estimate: 11.63 GiB, allocs estimate: 381117641.
+
+num threads 16 - channel size 64
+BenchmarkTools.Trial: 6 samples with 1 evaluation per sample.
+ Range (min … max):  11.315 s …  11.521 s  ┊ GC (min … max): 19.09% … 19.66%
+ Time  (median):     11.419 s              ┊ GC (median):    19.34%
+ Time  (mean ± σ):   11.421 s ± 76.361 ms  ┊ GC (mean ± σ):  19.30% ±  0.42%
+
+  █              █     █               █        █          █  
+  █▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁▁█ ▁
+  11.3 s         Histogram: frequency by time         11.5 s <
+
+ Memory estimate: 11.67 GiB, allocs estimate: 382502110.

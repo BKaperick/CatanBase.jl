@@ -39,14 +39,16 @@ function run(config_file::String, file_suffix)
 end
 
 function run_async(config_file::String)
-    touch("bychannel_async_benchmark.txt")
-    io = open("bychannel_async_benchmark.txt", "a")
     configs = Catan.parse_configs(config_file)
-    channel_sizes = [8,16,24,32,64]
+    touch(configs["BENCHMARK_OUTPUT"])
+    io = open(configs["BENCHMARK_OUTPUT"], "a")
+    channel_sizes = [64]#[8,16,24,32,64]
     for c = channel_sizes
         configs["Async"]["main"]["SIZE"] = c
         configs["Async"]["public"]["SIZE"] = c
-        t = @benchmark CatanLearning.run_tournament_async($configs)
+        #t = @benchmark CatanLearning.run_tournament_async($configs)
+        b = @benchmarkable CatanLearning.run_tournament_async($configs) seconds=60
+        t = BenchmarkTools.run(b)
         println("\nnum threads $(Threads.nthreads()) - channel size $c")
         show(stdout, MIME"text/plain"(), t)
         print(io, "\n\nnum threads $(Threads.nthreads()) - channel size $c\n")
