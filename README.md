@@ -1,9 +1,10 @@
 This repository contains two submodules for two 'sister' Julia packages: `Catan.jl` and `CatanLearning.jl`.
 
 `Catan.jl` is an engine for playing the extremely popular board game [Settlers of Catan](https://www.catan.com/) with a mixture of human and fully-customizable scripted players.
-To get started with `Catan.jl`, check out the documentation [here](https://bkaperick.github.io/CatanEngine.jl/).
 
 `CatanLearning.jl` is a suite of utilities to experiment with machine learning and reinforcement learning players using `Catan.jl`.
+
+To get started with `Catan.jl`, check out the documentation [here](https://bkaperick.github.io/CatanEngine.jl/).
 
 # Features
 
