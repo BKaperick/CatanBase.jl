@@ -1,16 +1,23 @@
+This repository contains two submodules for two 'sister' Julia packages:
+
 # Catan.jl
 
-An engine for playing the extremely popular board game [Settlers of Catan](https://www.catan.com/) with a mixture of human and scripted players.
-Includes a framework for easily implementing scripted players with custom strategies by implementing the functions defined in the API in `./src/players/robot_player.jl`.
+An engine for playing the extremely popular board game [Settlers of Catan](https://www.catan.com/) with a mixture of human and fully-customizable scripted players.
+To get started with `Catan.jl`, check out the documentation [here](https://bkaperick.github.io/CatanEngine.jl/).
+
+# CatanLearning.jl
+
+A suite of utilities to experiment with machine learning and reinforcement learning players using `Catan.jl`.
 
 ## Features
 
+### Catan.jl
 * Full ruleset of vanilla Settlers of Catan is implemented
+* Colored ASCII board display for debugging and rendering play with humans easier
 * Custom scripted players can be implemented and played against humans or other scripted players
-* Colored ASCII board display for debugging and rendering play with humans easier.
+* Many global parameters are exposed via TOML configuration keys, allowing for tweaking map generation and resource distribution
 
-## Set-up
-
-Consult [CatanLearning.jl/src/players/structs.jl](https://github.com/BKaperick/CatanLearning.jl/blob/master/src/players/structs.jl) for an example implementation of a new scripted player.
-
-Then, consult [CatanLearning.jl/src/main.jl](https://github.com/BKaperick/CatanLearning.jl/blob/master/src/main.jl) for an example of running the `CatanEngine.jl` code with the new player type.
+### CatanLearning.jl
+* Fast feature generation framework with a library of 50+ board state features implemented as starting point for ML-based players
+* Temporal difference stepping exploration implemented as starting point for RL-based players
+* Recursive action consideration implemented as starting point for pruning/search tree-based players
