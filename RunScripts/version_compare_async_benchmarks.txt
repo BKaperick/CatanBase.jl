@@ -1,0 +1,47 @@
+julia 1.10.9 - num threads 1 - channel size 64
+BenchmarkTools.Trial: 4 samples with 1 evaluation per sample.
+ Range (min … max):  16.329 s … 19.036 s  ┊ GC (min … max): 39.16% … 47.41%
+ Time  (median):     17.120 s             ┊ GC (median):    42.22%
+ Time  (mean ± σ):   17.401 s ±  1.172 s  ┊ GC (mean ± σ):  42.92% ±  3.50%
+
+  █          █          █                                 █  
+  █▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█ ▁
+  16.3 s         Histogram: frequency by time          19 s <
+
+ Memory estimate: 11.72 GiB, allocs estimate: 384000393.
+
+julia 1.11.5 - num threads 1 - channel size 64
+BenchmarkTools.Trial: 5 samples with 1 evaluation per sample.
+ Range (min … max):  13.446 s …   14.121 s  ┊ GC (min … max): 26.98% … 30.09%
+ Time  (median):     13.800 s               ┊ GC (median):    28.72%
+ Time  (mean ± σ):   13.790 s ± 238.730 ms  ┊ GC (mean ± σ):  28.68% ±  1.11%
+
+  █                            ███                          █  
+  █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁███▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█ ▁
+  13.4 s          Histogram: frequency by time         14.1 s <
+
+ Memory estimate: 11.75 GiB, allocs estimate: 385221715.
+
+julia 1.10.9 - num threads 16 - channel size 64
+BenchmarkTools.Trial: 5 samples with 1 evaluation per sample.
+ Range (min … max):  12.752 s …   13.431 s  ┊ GC (min … max): 21.30% … 25.76%
+ Time  (median):     12.989 s               ┊ GC (median):    23.50%
+ Time  (mean ± σ):   13.040 s ± 248.168 ms  ┊ GC (mean ± σ):  23.09% ±  1.93%
+
+  █                █  █      █                              █  
+  █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁█▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█ ▁
+  12.8 s          Histogram: frequency by time         13.4 s <
+
+ Memory estimate: 11.80 GiB, allocs estimate: 386474511.
+
+julia 1.11.5 - num threads 16 - channel size 64
+BenchmarkTools.Trial: 5 samples with 1 evaluation per sample.
+ Range (min … max):  12.409 s …   12.762 s  ┊ GC (min … max): 20.81% … 22.39%
+ Time  (median):     12.725 s               ┊ GC (median):    22.36%
+ Time  (mean ± σ):   12.622 s ± 174.248 ms  ┊ GC (mean ± σ):  21.79% ±  0.96%
+
+  ▁      ▁                                            ▁     █  
+  █▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁█ ▁
+  12.4 s          Histogram: frequency by time         12.8 s <
+
+ Memory estimate: 11.83 GiB, allocs estimate: 387985083.
