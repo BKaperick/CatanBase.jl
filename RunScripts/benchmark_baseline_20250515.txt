@@ -1,0 +1,48 @@
+4 DefaultRobotPlayers - 10 turns - no saving or logging
+BenchmarkTools.Trial: 1995 samples with 1 evaluation per sample.
+ Range (min … max):  2.614 ms … 122.439 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     3.949 ms               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   4.991 ms ±   4.452 ms  ┊ GC (mean ± σ):  8.64% ± 14.22%
+
+   ▃▇█▇▃▂                                                      
+  ▅███████▇▆▅▅▅▅▅▄▄▄▄▄▃▃▃▃▃▃▂▂▂▂▃▂▃▂▃▂▂▃▂▂▂▂▂▂▂▂▂▂▂▁▂▂▂▂▂▁▁▂▂ ▃
+  2.61 ms         Histogram: frequency by time        15.5 ms <
+
+ Memory estimate: 2.67 MiB, allocs estimate: 61064.
+
+4 DefaultRobotPlayers - 20 turns - no saving or logging
+BenchmarkTools.Trial: 1120 samples with 1 evaluation per sample.
+ Range (min … max):  4.240 ms … 40.305 ms  ┊ GC (min … max): 0.00% … 77.00%
+ Time  (median):     7.715 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   8.928 ms ±  3.670 ms  ┊ GC (mean ± σ):  8.26% ± 14.59%
+
+     ▃▃▆█▆█▆▄▄▅▁   ▃                                          
+  ▁▄▇███████████▇▇▆█▇▆▇▅▆▅▇▅▅▄▄▅▅▃▃▃▄▃▅▄▄▂▃▁▂▁▂▃▁▂▂▂▁▂▂▂▂▁▁▁ ▄
+  4.24 ms        Histogram: frequency by time          20 ms <
+
+ Memory estimate: 4.60 MiB, allocs estimate: 115696.
+
+4 DefaultRobotPlayers - 30 turns - no saving or logging
+BenchmarkTools.Trial: 745 samples with 1 evaluation per sample.
+ Range (min … max):   6.081 ms … 43.182 ms  ┊ GC (min … max): 0.00% … 71.53%
+ Time  (median):     12.506 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   13.417 ms ±  5.081 ms  ┊ GC (mean ± σ):  8.81% ± 14.89%
+
+     ▂ ▆▄█▆▆▂▇▄▁█▄▁▃▇▁▁▄▁▂▁▁▁   ▁                              
+  ▅▇█████████████████████████▇█▇█▆▇▇▄▅▅▆▅▅▅▃▅▄▃▂▃▁▄▄▃▂▃▃▃▁▂▃▃ ▅
+  6.08 ms         Histogram: frequency by time          28 ms <
+
+ Memory estimate: 6.42 MiB, allocs estimate: 169355.
+
+4 DefaultRobotPlayers - 40 turns - no saving or logging
+BenchmarkTools.Trial: 566 samples with 1 evaluation per sample.
+ Range (min … max):   8.298 ms … 45.621 ms  ┊ GC (min … max): 0.00% … 45.09%
+ Time  (median):     16.493 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   17.663 ms ±  6.131 ms  ┊ GC (mean ± σ):  9.02% ± 14.28%
+
+     ▂ ▂▇ ▅▃▃▅▆▂▇▄▃█▇▃▆▄                                       
+  ▄▆▇████▇████████████████████▇█▅▇▆▆▄▄▁▆▅▄▅▅▄▄▄▃▄▃▄▅▃▃▃▃▃▁▁▃▃ ▅
+  8.3 ms          Histogram: frequency by time          36 ms <
+
+ Memory estimate: 8.29 MiB, allocs estimate: 222679.
+
