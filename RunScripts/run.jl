@@ -4,6 +4,7 @@ using CatanLearning
 using Profile
 using BenchmarkTools
 using ProfileView
+using PProf
 using Base.Threads
 
 function retrain_models(config_file)
@@ -98,14 +99,24 @@ function profile_simple_run(config_file)
     end
 end
 
+function memory_profile_run(config_file)
+    configs = Catan.parse_configs(config_file)
+    #@profview Catan.run(configs)
+    Profile.Allocs.clear()
+    Catan.run(configs)
+    Profile.Allocs.@profile sample_rate=.1 Catan.run(configs)
+    PProf.Allocs.pprof(from_c=false)
+    #=
+    =#
+end
 function profile_run(config_file)
     configs = Catan.parse_configs(config_file)
-    @profview Catan.run(configs)
-    #=
+    #@profview Catan.run(configs)
     @profile Catan.run(configs)
     open("./tmp/prof.txt", "w") do s
         Profile.print(IOContext(s, :displaysize => (24, 500)), sortedby=:count, mincount=100)
     end
+    #=
     =#
 end
 
