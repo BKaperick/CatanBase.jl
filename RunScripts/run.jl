@@ -99,16 +99,41 @@ function profile_simple_run(config_file)
     end
 end
 
+function memory_loop_run(config_file)
+    configs = Catan.parse_configs(config_file)
+    Catan.run(configs)
+    allocs = Vector{Int64}(undef, 5)
+    for i=1:5
+        t = @ballocated Catan.run($configs) seconds=10
+        #b = @benchmarkable Catan.run($configs) seconds=10
+        #t = BenchmarkTools.run(b)
+        allocs[i] = t
+
+        # Print to REPL
+        show(stdout, MIME"text/plain"(), t)
+        println("")
+    end
+    
+    output_file = configs["BENCHMARK_OUTPUT"]
+    io = open(output_file, "w")
+    print(io, mean(allocs))
+    close(io)
+end
+
 function memory_profile_run(config_file)
     configs = Catan.parse_configs(config_file)
     #@profview Catan.run(configs)
     Profile.Allocs.clear()
     Catan.run(configs)
-    Profile.Allocs.@profile sample_rate=.1 Catan.run(configs)
+    Profile.Allocs.@profile sample_rate=1 Catan.run(configs)
     PProf.Allocs.pprof(from_c=false)
-    #=
-    =#
 end
+
+function run_one(config_file)
+    configs = Catan.parse_configs(config_file)
+    Catan.run(configs)
+end
+
 function profile_run(config_file)
     configs = Catan.parse_configs(config_file)
     #@profview Catan.run(configs)
@@ -190,8 +215,8 @@ function benchmark_run(config_file::String)
     return trials
 end
 
-function benchmark_run(configs::Dict, io, descr)
-    b = @benchmarkable Catan.run($configs) seconds=10
+function benchmark_run(configs::Dict, io, descr, secs=10)
+    b = @benchmarkable Catan.run($configs) seconds=secs
     t = BenchmarkTools.run(b)
 
     # Print to REPL

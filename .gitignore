@@ -3,3 +3,4 @@ RunScripts/data/*
 RunScripts/tmp
 RunScripts/tmp/*
 *_tmp_*
+*gz
