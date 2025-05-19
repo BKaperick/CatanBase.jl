@@ -8,6 +8,7 @@ TEAMS = ["blue", "cyan", "green", "yellow"]
 MAX_TURNS = 10
 BENCHMARK_OUTPUT = "async_julia_11.txt"
 WRITE_FEATURES = true
+FEATURE_SANITY_CHECK = false
 
 [GameSettings]
 VICTORY_POINT_GOAL = 1000

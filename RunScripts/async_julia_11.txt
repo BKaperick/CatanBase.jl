@@ -59,3 +59,64 @@ BenchmarkTools.Trial: 6 samples with 1 evaluation per sample.
   11.3 s         Histogram: frequency by time         11.5 s <
 
  Memory estimate: 11.67 GiB, allocs estimate: 382502110.
+
+
+num threads 1 - channel size 64
+BenchmarkTools.Trial: 3633 samples with 1 evaluation per sample.
+ Range (min … max):  12.451 ms … 84.993 ms  ┊ GC (min … max):  0.00% …  0.00%
+ Time  (median):     13.931 ms              ┊ GC (median):     0.00%
+ Time  (mean ± σ):   16.502 ms ±  5.908 ms  ┊ GC (mean ± σ):  10.06% ± 15.14%
+
+  ▃▇██▇▆▅▄▃▁▁                     ▁▃▄▃▂▁ ▁ ▁                  ▂
+  ███████████▇▇▇▆▅▇▄▁▅▄▄▄▅▃▅▃▅▆▇▇█████████████▇▆▆▇▅█▆██▇▆▅▆▅▅ █
+  12.5 ms      Histogram: log(frequency) by time      34.3 ms <
+
+ Memory estimate: 12.52 MiB, allocs estimate: 289557.
+
+num threads 2 - channel size 64
+BenchmarkTools.Trial: 3788 samples with 1 evaluation per sample.
+ Range (min … max):  12.165 ms … 87.801 ms  ┊ GC (min … max):  0.00% …  0.00%
+ Time  (median):     13.815 ms              ┊ GC (median):     0.00%
+ Time  (mean ± σ):   15.826 ms ±  5.041 ms  ┊ GC (mean ± σ):  10.06% ± 15.23%
+
+   ▃▆███▇▆▄▃▂▂▂▁                           ▁▂▃▃▃▂▂▁ ▁         ▂
+  ████████████████▇▅▅▅▅▇▆▄▆▃▃▄▄▅▅▃▃▁▅▁▅▅▇▆████████████▇▆▇▅▅▆▆ █
+  12.2 ms      Histogram: log(frequency) by time      30.3 ms <
+
+ Memory estimate: 12.34 MiB, allocs estimate: 285823.
+
+num threads 4 - channel size 64
+BenchmarkTools.Trial: 3900 samples with 1 evaluation per sample.
+ Range (min … max):  12.494 ms … 88.565 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     13.897 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   15.371 ms ±  4.010 ms  ┊ GC (mean ± σ):  9.15% ± 14.27%
+
+     ▃▆█▇▃                                                     
+  ▂▄▇██████▅▄▃▂▂▂▂▂▂▂▂▁▁▂▂▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▂▁▁▂▂▂▂▂▂▂▂▃▃▃▄▄▄▃▃▂ ▃
+  12.5 ms         Histogram: frequency by time        25.7 ms <
+
+ Memory estimate: 12.45 MiB, allocs estimate: 289002.
+
+num threads 8 - channel size 64
+BenchmarkTools.Trial: 3956 samples with 1 evaluation per sample.
+ Range (min … max):  12.265 ms … 109.886 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     13.690 ms               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   15.154 ms ±   3.865 ms  ┊ GC (mean ± σ):  8.64% ± 13.49%
+
+     ▁▆██▄▂                                                     
+  ▂▃▆██████▆▅▄▃▃▃▂▂▂▂▂▂▂▂▂▁▂▂▂▂▂▁▂▂▁▁▂▁▁▂▂▂▂▂▂▂▂▂▂▃▃▄▄▄▄▃▃▃▂▂▂ ▃
+  12.3 ms         Histogram: frequency by time         24.9 ms <
+
+ Memory estimate: 12.32 MiB, allocs estimate: 286142.
+
+num threads 16 - channel size 64
+BenchmarkTools.Trial: 3296 samples with 1 evaluation per sample.
+ Range (min … max):  12.414 ms … 106.587 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     14.941 ms               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   18.185 ms ±   6.635 ms  ┊ GC (mean ± σ):  7.99% ± 12.82%
+
+    ██▅▁                                                        
+  ▁▆█████▅▄▃▂▂▁▂▁▁▁▁▁▁▁▂▂▂▂▃▃▃▂▂▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ ▂
+  12.4 ms         Histogram: frequency by time         40.8 ms <
+
+ Memory estimate: 12.53 MiB, allocs estimate: 289984.

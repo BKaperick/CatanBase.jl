@@ -28,7 +28,7 @@ TYPE = "DefaultRobotPlayer"
 TYPE = "DefaultRobotPlayer"
 
 [Tournament]
-GAMES_PER_MAP = 25
+GAMES_PER_MAP = 1
 MAPS_PER_EPOCH = 1
 # Number of epochs (1 epoch is M*N games) to run
 NUM_EPOCHS = 1

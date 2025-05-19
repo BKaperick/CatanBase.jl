@@ -39,6 +39,11 @@ function run(config_file::String, file_suffix)
     CatanLearning.run(player_schemas, configs)
 end
 
+function run_async_simple(config_file::String)
+    configs = Catan.parse_configs(config_file)
+    CatanLearning.run_tournament_async(configs)
+end
+
 function run_async(config_file::String)
     configs = Catan.parse_configs(config_file)
     touch(configs["BENCHMARK_OUTPUT"])
@@ -129,9 +134,34 @@ function memory_profile_run(config_file)
     PProf.Allocs.pprof(from_c=false)
 end
 
+function memory_profile_run_async(config_file)
+    configs = Catan.parse_configs(config_file)
+    #@profview Catan.run(configs)
+    Profile.Allocs.clear()
+    CatanLearning.run_tournament_async(configs)
+    #Catan.run(configs)
+    Profile.Allocs.@profile sample_rate=1 CatanLearning.run_tournament_async(configs)
+    PProf.Allocs.pprof(from_c=false)
+end
+
+function time_profile_run_async(config_file)
+    configs = Catan.parse_configs(config_file)
+    
+    Profile.clear()
+    CatanLearning.run_tournament_async(configs)
+    
+    @profile CatanLearning.run_tournament_async(configs)
+    pprof(from_c=false)
+end
+
 function run_one(config_file)
     configs = Catan.parse_configs(config_file)
     Catan.run(configs)
+end
+
+function run_one_async(config_file)
+    configs = Catan.parse_configs(config_file)
+    Catan.run_async(configs)
 end
 
 function profile_run(config_file)
