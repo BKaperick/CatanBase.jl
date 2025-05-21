@@ -120,3 +120,244 @@ BenchmarkTools.Trial: 3296 samples with 1 evaluation per sample.
   12.4 ms         Histogram: frequency by time         40.8 ms <
 
  Memory estimate: 12.53 MiB, allocs estimate: 289984.
+
+
+num threads 1 - channel size 64
+BenchmarkTools.Trial: 5145 samples with 1 evaluation per sample.
+ Range (min … max):   9.607 ms … 34.692 ms  ┊ GC (min … max): 0.00% … 65.12%
+ Time  (median):     10.613 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.652 ms ±  3.116 ms  ┊ GC (mean ± σ):  8.45% ± 14.08%
+
+     ▅█▆▁                                                      
+  ▂▃▇████▆▄▃▃▂▂▂▂▂▂▂▁▂▁▁▁▂▁▁▁▁▁▁▁▁▂▁▁▂▂▁▁▁▁▁▁▂▁▂▂▂▂▂▂▂▂▂▃▃▃▃▃ ▃
+  9.61 ms         Histogram: frequency by time        21.2 ms <
+
+ Memory estimate: 9.16 MiB, allocs estimate: 195921.
+
+num threads 2 - channel size 64
+BenchmarkTools.Trial: 5302 samples with 1 evaluation per sample.
+ Range (min … max):   9.280 ms … 78.688 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.205 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.304 ms ±  3.351 ms  ┊ GC (mean ± σ):  8.73% ± 14.29%
+
+     ▆█▃                                                       
+  ▂▄████▇▄▃▂▂▂▂▂▂▂▂▂▂▂▂▁▂▁▂▂▁▁▂▂▁▂▂▁▂▂▂▁▁▁▁▁▁▂▁▁▂▂▂▂▂▂▂▂▃▃▃▃▃ ▃
+  9.28 ms         Histogram: frequency by time        21.1 ms <
+
+ Memory estimate: 9.31 MiB, allocs estimate: 199629.
+
+num threads 4 - channel size 64
+BenchmarkTools.Trial: 5347 samples with 1 evaluation per sample.
+ Range (min … max):   9.299 ms … 34.160 ms  ┊ GC (min … max): 0.00% … 62.12%
+ Time  (median):     10.227 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.209 ms ±  2.811 ms  ┊ GC (mean ± σ):  7.93% ± 13.50%
+
+     ▄██▂                                                      
+  ▂▃▆████▇▄▃▃▂▂▂▂▂▂▂▂▂▂▁▂▁▂▁▂▂▂▁▂▂▁▁▁▂▂▂▂▁▂▂▂▂▁▁▂▂▂▂▂▂▂▃▃▃▃▃▃ ▃
+  9.3 ms          Histogram: frequency by time        19.6 ms <
+
+ Memory estimate: 9.24 MiB, allocs estimate: 198305.
+
+num threads 8 - channel size 64
+BenchmarkTools.Trial: 5356 samples with 1 evaluation per sample.
+ Range (min … max):   9.330 ms … 77.316 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.219 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.192 ms ±  2.909 ms  ┊ GC (mean ± σ):  7.83% ± 13.31%
+
+     ▅█▇▃                                                      
+  ▂▃█████▇▄▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▂▁▂▁▂▁▂▂▂▂▁▁▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂ ▃
+  9.33 ms         Histogram: frequency by time        19.3 ms <
+
+ Memory estimate: 9.24 MiB, allocs estimate: 198092.
+
+num threads 16 - channel size 64
+BenchmarkTools.Trial: 5278 samples with 1 evaluation per sample.
+ Range (min … max):   9.315 ms … 72.822 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.287 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.355 ms ±  3.140 ms  ┊ GC (mean ± σ):  7.93% ± 13.11%
+
+   ▄▆███▆▅▃▂▂▁                                     ▂▂▂▃▂▂▁▁   ▂
+  █████████████▇▆▃▄▄▃▅▄▄▁▃▃▅▁▃▄▃▃▁▄▄▁▃▃▃▃▆▅▆▄▆▇▆▆████████████ █
+  9.32 ms      Histogram: log(frequency) by time      20.9 ms <
+
+ Memory estimate: 9.22 MiB, allocs estimate: 197059.
+
+num threads 1 - channel size 64
+BenchmarkTools.Trial: 5461 samples with 1 evaluation per sample.
+ Range (min … max):   8.937 ms … 72.757 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):      9.892 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   10.976 ms ±  3.222 ms  ┊ GC (mean ± σ):  8.96% ± 14.49%
+
+     ▇█▆▁                                                      
+  ▂▄█████▆▄▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▂▁▂▁▂▁▂▂▁▂▁▂▂▂▂▁▁▁▁▁▂▂▂▂▂▂▂▃▃▃▄▃▃ ▃
+  8.94 ms         Histogram: frequency by time        20.2 ms <
+
+ Memory estimate: 9.21 MiB, allocs estimate: 197481.
+
+num threads 2 - channel size 64
+BenchmarkTools.Trial: 5400 samples with 1 evaluation per sample.
+ Range (min … max):   9.175 ms … 97.799 ms  ┊ GC (min … max): 0.00% … 21.84%
+ Time  (median):     10.030 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.097 ms ±  3.417 ms  ┊ GC (mean ± σ):  8.70% ± 14.29%
+
+    ▃█▇▃                                                       
+  ▃▅████▇▄▃▂▂▂▂▂▂▂▂▂▁▂▂▁▂▁▂▁▂▂▂▁▁▁▁▂▂▂▂▂▂▂▁▁▁▁▁▂▂▂▂▂▂▂▂▂▃▃▃▃▃ ▃
+  9.17 ms         Histogram: frequency by time        20.8 ms <
+
+ Memory estimate: 9.31 MiB, allocs estimate: 199434.
+
+num threads 4 - channel size 64
+BenchmarkTools.Trial: 5453 samples with 1 evaluation per sample.
+ Range (min … max):   9.087 ms … 166.988 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):      9.960 ms               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   10.992 ms ±   3.637 ms  ┊ GC (mean ± σ):  8.14% ± 13.70%
+
+   ▃▆██▇▇▅▄▂▁▁                                         ▂▃▃▃▃▂▁ ▂
+  ▇████████████▇▇▆▅▅▇▄▃▁▅▅▃▁▄▃▃▅▃▄▁▁▁▃▄▃▁▄▁▄▁▁▄▃▄▆▅▇▆▇████████ █
+  9.09 ms       Histogram: log(frequency) by time      19.4 ms <
+
+ Memory estimate: 9.26 MiB, allocs estimate: 198152.
+
+num threads 8 - channel size 64
+BenchmarkTools.Trial: 5422 samples with 1 evaluation per sample.
+ Range (min … max):   9.151 ms … 73.988 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.072 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.054 ms ±  2.918 ms  ┊ GC (mean ± σ):  7.86% ± 13.41%
+
+     ▄█▇▃                                                      
+  ▂▃▇████▇▅▄▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▂▂▁▂▂▁▁▂▁▂▂▂▂▂▂▂▃▃▃▃▃▃▃ ▃
+  9.15 ms         Histogram: frequency by time        19.1 ms <
+
+ Memory estimate: 9.28 MiB, allocs estimate: 198849.
+
+num threads 16 - channel size 64
+BenchmarkTools.Trial: 5232 samples with 1 evaluation per sample.
+ Range (min … max):   9.269 ms … 77.354 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.258 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.454 ms ±  3.199 ms  ┊ GC (mean ± σ):  7.93% ± 13.42%
+
+   ▃▆███▇▅▄▃▂▁▁                                    ▁▁▂▃▂▂▁▁   ▂
+  ▇██████████████▆▇▇▇▆▆▄▅▆▆▆▃▅▅▆▆▅▄▃▆▄▄▄▅▃▅▄▄▅▆▆▇▇██████████▇ █
+  9.27 ms      Histogram: log(frequency) by time      20.5 ms <
+
+ Memory estimate: 9.24 MiB, allocs estimate: 197793.
+
+num threads 1 - channel size 64
+BenchmarkTools.Trial: 5032 samples with 1 evaluation per sample.
+ Range (min … max):   9.224 ms … 74.925 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.457 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.911 ms ±  3.569 ms  ┊ GC (mean ± σ):  8.52% ± 14.19%
+
+   ▄▆██▇▆▅▄▄▃▂▂▂▁▁▁▁  ▁                       ▁▂▃▂▂▁          ▂
+  ██████████████████▇████▆▇▆▆▇▇▅▆▆▃▅▅▃▃▆▆▅▆▅▇███████▇█▆▆▆▆▅▄▆ █
+  9.22 ms      Histogram: log(frequency) by time        23 ms <
+
+ Memory estimate: 9.32 MiB, allocs estimate: 199266.
+
+num threads 2 - channel size 64
+BenchmarkTools.Trial: 5085 samples with 1 evaluation per sample.
+ Range (min … max):   9.162 ms … 93.580 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.339 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.787 ms ±  3.721 ms  ┊ GC (mean ± σ):  8.52% ± 14.19%
+
+   ▄▇██▇▅▄▄▃▂▂▂▂▁▁▁▁  ▁                      ▂▂▃▂▂▁           ▂
+  ▇█████████████████████▇██▆▅▆▆▆▃▆▅▅▆▅▅▅▆▇█▇████████▇▇▆▆▆▆▁▅▅ █
+  9.16 ms      Histogram: log(frequency) by time      23.8 ms <
+
+ Memory estimate: 9.25 MiB, allocs estimate: 198452.
+
+num threads 4 - channel size 64
+BenchmarkTools.Trial: 5148 samples with 1 evaluation per sample.
+ Range (min … max):   9.151 ms … 86.949 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.375 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.642 ms ±  3.343 ms  ┊ GC (mean ± σ):  7.91% ± 13.48%
+
+    ▄▇██▇▆▄▃▂▁ ▁▁                             ▂▂▃▃▂▁          ▂
+  ▄██████████████▇██▇█▇██▆▇█▆▇▇▅▆▆▆▄▅▃▃▄▄▄▆▆▆███████▇█▆▆▅▄▃▅▅ █
+  9.15 ms      Histogram: log(frequency) by time      21.8 ms <
+
+ Memory estimate: 9.18 MiB, allocs estimate: 196339.
+
+num threads 8 - channel size 64
+BenchmarkTools.Trial: 4960 samples with 1 evaluation per sample.
+ Range (min … max):   9.406 ms … 76.541 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.625 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   12.083 ms ±  3.346 ms  ┊ GC (mean ± σ):  7.41% ± 12.84%
+
+   ▃▆██▇▆▅▄▂▂▃▃▂▁▂▁▁▁▁▁▁▁▁                 ▂▃▃▂▂▁             ▂
+  ▆█████████████████████████▇▇▆▇▇▇▆▆▆▆▅▇▇▇█████████▇▆▇▇▆▇▅▅▆▅ █
+  9.41 ms      Histogram: log(frequency) by time      22.5 ms <
+
+ Memory estimate: 9.21 MiB, allocs estimate: 197266.
+
+num threads 16 - channel size 64
+BenchmarkTools.Trial: 5229 samples with 1 evaluation per sample.
+ Range (min … max):   9.064 ms … 81.758 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.321 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.459 ms ±  3.201 ms  ┊ GC (mean ± σ):  7.87% ± 13.16%
+
+    ▂▆▇██▇▅▄▃▂▁                                   ▁▂▂▃▃▂▂▁▁▁  ▂
+  ▅▇██████████████▇▇▇▆▆▇▅▇▆▆▆▆▇▆▆▅▃▆▆▄▃▄▅▅▃▁▆▆▅▅▆▇██████████▇ █
+  9.06 ms      Histogram: log(frequency) by time      20.8 ms <
+
+ Memory estimate: 9.19 MiB, allocs estimate: 196848.
+
+num threads 1 - channel size 64
+BenchmarkTools.Trial: 4802 samples with 1 evaluation per sample.
+ Range (min … max):   9.847 ms … 100.331 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.986 ms               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   12.481 ms ±   3.985 ms  ┊ GC (mean ± σ):  8.98% ± 14.38%
+
+  ▁▅▇██▇▆▄▄▃▃▂▂▃▂▃▁▁                            ▂▃▃▂▁▁         ▂
+  ███████████████████▆▆▆▆▄▄▃▄▃▄▄▁▄▅▄▃▅▁▁▃▅▇▇▇▄██████████▇█▇██▇ █
+  9.85 ms       Histogram: log(frequency) by time      24.5 ms <
+
+ Memory estimate: 9.24 MiB, allocs estimate: 198043.
+
+num threads 2 - channel size 64
+BenchmarkTools.Trial: 5068 samples with 1 evaluation per sample.
+ Range (min … max):   9.726 ms … 100.100 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.635 ms               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.828 ms ±   3.746 ms  ┊ GC (mean ± σ):  9.16% ± 14.53%
+
+    ▄█▇▂                                                        
+  ▂▄████▆▃▃▂▂▂▂▂▂▁▂▂▁▁▁▂▂▁▁▂▂▁▂▁▂▂▁▁▂▁▁▂▁▁▁▁▁▁▁▁▂▂▂▂▂▂▂▂▂▂▃▃▃▃ ▃
+  9.73 ms         Histogram: frequency by time         22.6 ms <
+
+ Memory estimate: 9.30 MiB, allocs estimate: 199450.
+
+num threads 4 - channel size 64
+BenchmarkTools.Trial: 5065 samples with 1 evaluation per sample.
+ Range (min … max):   9.838 ms … 79.923 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.699 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.834 ms ±  3.408 ms  ┊ GC (mean ± σ):  8.27% ± 13.71%
+
+    ▃█▇▃                                                       
+  ▃▅████▆▄▃▃▂▂▂▂▂▂▂▁▂▂▂▁▂▂▁▁▂▁▁▂▁▂▂▂▂▂▁▂▂▂▂▁▁▂▂▂▂▂▂▂▂▂▂▂▃▃▄▃▂ ▃
+  9.84 ms         Histogram: frequency by time        21.4 ms <
+
+ Memory estimate: 9.31 MiB, allocs estimate: 199722.
+
+num threads 8 - channel size 64
+BenchmarkTools.Trial: 5003 samples with 1 evaluation per sample.
+ Range (min … max):   9.844 ms … 143.340 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.780 ms               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.980 ms ±   3.811 ms  ┊ GC (mean ± σ):  7.79% ± 12.76%
+
+     ▅█▄                                                        
+  ▂▄█████▅▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▂▂▂▂▂▂▂▂▁▂▁▁▂▂▁▁▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂ ▃
+  9.84 ms         Histogram: frequency by time         21.2 ms <
+
+ Memory estimate: 9.22 MiB, allocs estimate: 197634.
+
+num threads 16 - channel size 64
+BenchmarkTools.Trial: 5041 samples with 1 evaluation per sample.
+ Range (min … max):   9.788 ms … 99.481 ms  ┊ GC (min … max): 0.00% …  0.00%
+ Time  (median):     10.691 ms              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   11.890 ms ±  3.545 ms  ┊ GC (mean ± σ):  7.90% ± 12.76%
+
+   ▅▇██▇▅▄▃▂▁                                      ▁ ▂▂▂▂▂▂▂▁ ▂
+  ███████████▆▆▄▆▆▆▄▅▅▅▃▄▅▁▃▄▃▁▁▁▄▁▄▁▅▄▁▄▅▆▅▅▆▆▇▇▇███████████ █
+  9.79 ms      Histogram: log(frequency) by time      22.1 ms <
+
+ Memory estimate: 9.37 MiB, allocs estimate: 200555.

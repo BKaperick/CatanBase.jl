@@ -5,8 +5,8 @@ SAVE_GAME_TO_FILE = false
 LOG_OUTPUT = ""
 PRINT_BOARD = false
 TEAMS = ["blue", "cyan", "green", "yellow"]
-MAX_TURNS = 10
-BENCHMARK_OUTPUT = "benchmark_baseline_20250515.txt"
+MAX_TURNS = 1000
+BENCHMARK_OUTPUT = "benchmark_catan_release.txt"
 
 [GameSettings]
 VICTORY_POINT_GOAL = 1000

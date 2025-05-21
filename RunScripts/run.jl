@@ -48,18 +48,12 @@ function run_async(config_file::String)
     configs = Catan.parse_configs(config_file)
     touch(configs["BENCHMARK_OUTPUT"])
     io = open(configs["BENCHMARK_OUTPUT"], "a")
-    channel_sizes = [64]#[8,16,24,32,64]
-    for c = channel_sizes
-        configs["Async"]["main"]["SIZE"] = c
-        configs["Async"]["public"]["SIZE"] = c
-        #t = @benchmark CatanLearning.run_tournament_async($configs)
-        b = @benchmarkable CatanLearning.run_tournament_async($configs) seconds=60
-        t = BenchmarkTools.run(b)
-        println("\nnum threads $(Threads.nthreads()) - channel size $c")
-        show(stdout, MIME"text/plain"(), t)
-        print(io, "\n\nnum threads $(Threads.nthreads()) - channel size $c\n")
-        show(io, MIME"text/plain"(), t)
-    end
+    b = @benchmarkable CatanLearning.run_tournament_async($configs) seconds=60
+    t = BenchmarkTools.run(b)
+    println("\nnum threads $(Threads.nthreads()) - channel size 64")
+    show(stdout, MIME"text/plain"(), t)
+    print(io, "\n\nnum threads $(Threads.nthreads()) - channel size 64\n")
+    show(io, MIME"text/plain"(), t)
 end
 
 
@@ -185,31 +179,15 @@ function benchmark_dry_run(config_file::String)
     Catan.run(configs)
 end
 
-function threading_benchmark_run(config_file::String)
-    trials = []
+function benchmark_one_game(config_file::String, descr::String)
     configs = Catan.parse_configs(config_file)
-    player_schemas = Catan.read_player_constructors_from_config(configs["PlayerSettings"])
-    
-    println("ASYNC = true | $(Threads.nthreads()) threads")
-    configs["ASYNC"] = true
-    t = BenchmarkTools.run(@benchmarkable CatanLearning.run($player_schemas, $configs) seconds=10)
-    #t = BenchmarkTools.run(@benchmarkable Catan.run($configs) seconds=10)
-    show(stdout, MIME"text/plain"(), t)
-    println("")
-    
-    println("ASYNC = false | $(Threads.nthreads()) threads")
-    configs["ASYNC"] = false
-    t = BenchmarkTools.run(@benchmarkable CatanLearning.run($player_schemas, $configs) seconds=10)
-    #t = BenchmarkTools.run(@benchmarkable Catan.run($configs) seconds=10)
-    show(stdout, MIME"text/plain"(), t)
-    println("")
-    
-    #=
-    configs["MAX_TURNS"] = 500
-    t = BenchmarkTools.run(@benchmarkable Catan.run($configs) seconds=10)
-    show(stdout, MIME"text/plain"(), t)
-    println("")
-    =#
+    output_file = configs["BENCHMARK_OUTPUT"]
+    io = open(output_file, "a")
+    #t = BenchmarkTools.run(@benchmarkable Catan.run($configs) seconds=60)
+    #show(stdout, MIME"text/plain"(), t)
+    #println("")
+
+    benchmark_run(configs, io, descr, 60)
 end
 
 function benchmark_run(config_file::String)
