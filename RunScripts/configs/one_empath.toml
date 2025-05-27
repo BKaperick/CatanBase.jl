@@ -5,22 +5,22 @@ LOG_OUTPUT = "stderr"
 LOG_LEVEL = "Logging.Info"
 PRINT_BOARD = false
 TEAMS = ["blue", "cyan", "green", "yellow"]
-WRITE_FEATURES = true
+WRITE_FEATURES = false
 
 [Tournament]
-GAMES_PER_MAP = 100
-MAPS_PER_EPOCH = 100
+GAMES_PER_MAP = 10
+MAPS_PER_EPOCH = 10
 # Number of epochs (1 epoch is M*N games) to run
-NUM_EPOCHS = 100
+NUM_EPOCHS = 10
 
 [GameSettings]
 [PlayerSettings]
-MODEL = "../CatanLearning.jl/data/model.jls"
-PUBLIC_MODEL = "../CatanLearning.jl/data/public_model.jls"
+MODEL = "../CatanLearning.jl/models/model.jls"
+PUBLIC_MODEL = "../CatanLearning.jl/models/public_model.jls"
 FEATURES = "./data/features.csv"
 PUBLIC_FEATURES = "./data/public_features.csv"
 [PlayerSettings.blue]
-TYPE = "DefaultRobotPlayer"
+TYPE = "EmpathRobotPlayer"
 [PlayerSettings.cyan]
 TYPE = "DefaultRobotPlayer"
 [PlayerSettings.green]

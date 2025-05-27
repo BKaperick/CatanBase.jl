@@ -9,7 +9,7 @@ MAX_TURNS = 1000
 BENCHMARK_OUTPUT = "benchmark_catan_release.txt"
 
 [GameSettings]
-VICTORY_POINT_GOAL = 1000
+VICTORY_POINT_GOAL = 10
 
 [PlayerSettings]
 MODEL = "../CatanLearning.jl/models/model.jls"

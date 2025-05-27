@@ -39,12 +39,16 @@ function run(config_file::String, file_suffix)
     CatanLearning.run(player_schemas, configs)
 end
 
-function run_async_simple(config_file::String)
+function run_tournament(config_file::String)
+    configs = Catan.parse_configs(config_file)
+    CatanLearning.run_tournament(configs)
+end
+function run_tournament_async(config_file::String)
     configs = Catan.parse_configs(config_file)
     CatanLearning.run_tournament_async(configs)
 end
 
-function run_async(config_file::String)
+function run_benchmark_async(config_file::String)
     configs = Catan.parse_configs(config_file)
     touch(configs["BENCHMARK_OUTPUT"])
     io = open(configs["BENCHMARK_OUTPUT"], "a")
@@ -75,12 +79,6 @@ function run_async_benchmark(config_file::String)
 
     #return t
 
-end
-
-function run(config_file::String)
-    configs = Catan.parse_configs(config_file)
-    player_schemas = Catan.read_player_constructors_from_config(configs["PlayerSettings"])
-    CatanLearning.run(player_schemas, configs)
 end
 
 function profile_simple_run(config_file)
@@ -128,6 +126,15 @@ function memory_profile_run(config_file)
     PProf.Allocs.pprof(from_c=false)
 end
 
+function time_profile_run(config_file)
+    configs = Catan.parse_configs(config_file)
+    #@profview Catan.run(configs)
+    Catan.run(configs)
+    Profile.clear()
+    @profile Catan.run(configs)
+    pprof(from_c=true)
+end
+
 function memory_profile_run_async(config_file)
     configs = Catan.parse_configs(config_file)
     #@profview Catan.run(configs)
@@ -141,11 +148,11 @@ end
 function time_profile_run_async(config_file)
     configs = Catan.parse_configs(config_file)
     
-    Profile.clear()
     CatanLearning.run_tournament_async(configs)
+    Profile.clear()
     
     @profile CatanLearning.run_tournament_async(configs)
-    pprof(from_c=false)
+    pprof(from_c=true)
 end
 
 function run_one(config_file)
