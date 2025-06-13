@@ -2,14 +2,14 @@ SAVE_GAME_TO_FILE = false
 SAVE_FILE = "savefile.txt"
 #LOG_OUTPUT = ""
 LOG_OUTPUT = "stderr"
-LOG_LEVEL = "Info"
+LOG_LEVEL = ""
 PRINT_BOARD = false
 TEAMS = ["blue", "cyan", "green", "yellow"]
 WRITE_FEATURES = false
 MAX_TURNS = 10
 
 [Tournament]
-GAMES_PER_MAP = 10
+GAMES_PER_MAP = 1
 MAPS_PER_EPOCH = 1
 # Number of epochs (1 epoch is M*N games) to run
 NUM_EPOCHS = 1
