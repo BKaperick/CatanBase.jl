@@ -36,6 +36,8 @@ MODEL = "../CatanLearning.jl/models/linear_model.csv"
 TYPE = "HybridPlayer"
 REWARD_WEIGHT = 0.5
 VALUE_WEIGHT = 0.5
+REWARD_DISCOUNT = 0.5
+LEARNING_RATE = 0.1
 [PlayerSettings.cyan]
 MODEL = "../CatanLearning.jl/models/model.jls"
 TYPE = "EmpathRobotPlayer"
