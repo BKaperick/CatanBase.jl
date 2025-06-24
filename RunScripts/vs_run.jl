@@ -14,8 +14,7 @@ end
 function run(n)
     cd(@__DIR__)
     configs = Catan.parse_configs(joinpath(@__DIR__, "./configs/async_config.toml"))
-    player_schemas = Catan.read_player_constructors_from_config(configs["PlayerSettings"])
-    CatanLearning.run(player_schemas, configs)
+    CatanLearning.run_tournament(configs)
 end
 
 #@profview run_async(1)

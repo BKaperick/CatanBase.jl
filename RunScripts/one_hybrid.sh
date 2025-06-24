@@ -1,1 +1,1 @@
-julia -e "include(\"run.jl\"); run_tournament(\"configs/one_hybrid.toml\")"
+julia -e "include(\"run.jl\"); run_state_space_tournament(\"configs/one_hybrid.toml\")"
