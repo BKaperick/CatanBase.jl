@@ -6,44 +6,34 @@ LOG_LEVEL = "Info"
 PRINT_BOARD = false
 TEAMS = ["blue", "cyan", "green", "yellow"]
 WRITE_FEATURES = false
-MAX_TURNS = 10
+MAX_TURNS = 100
 
 [Tournament]
-GAMES_PER_MAP = 10
-MAPS_PER_EPOCH = 1
+GAMES_PER_MAP = 100
+MAPS_PER_EPOCH = 100
 # Number of epochs (1 epoch is M*N games) to run
 NUM_EPOCHS = 1
 
-[GameSettings]
-[GameSettings.DevCards]
-#KNIGHT = 0
-#ROAD_BUILDING = 0
-#YEAR_OF_PLENTY = 20
-#MONOPOLY = 0
-#VICTORY_POINT = 0
-
-[HypothGameSettings]
-LOG_OUTPUT = "stderr"
-LOG_LEVEL = "Warn"
-
 [PlayerSettings]
-MODEL = "../CatanLearning.jl/models/model.jls"
-PUBLIC_MODEL = "../CatanLearning.jl/models/public_model.jls"
 FEATURES = "./data/features.csv"
 PUBLIC_FEATURES = "./data/public_features.csv"
-[PlayerSettings.blue]
 MODEL = "../CatanLearning.jl/models/linear_model.csv"
-TYPE = "HybridPlayer"
+PUBLIC_MODEL = "../CatanLearning.jl/models/public_model.jls"
 REWARD_WEIGHT = 0.5
 VALUE_WEIGHT = 0.5
 REWARD_DISCOUNT = 0.5
 LEARNING_RATE = 0.1
 SEARCH_DEPTH = 1
+
+[PlayerSettings.blue]
+MODEL = "../CatanLearning.jl/models/linear_model.csv"
+TYPE = "HybridPlayer"
 [PlayerSettings.cyan]
-MODEL = "../CatanLearning.jl/models/model.jls"
-TYPE = "EmpathRobotPlayer"
-SEARCH_DEPTH = 1
+MODEL = "../CatanLearning.jl/models/linear_model.csv"
+TYPE = "HybridPlayer"
 [PlayerSettings.green]
-TYPE = "DefaultRobotPlayer"
+MODEL = "../CatanLearning.jl/models/linear_model.csv"
+TYPE = "HybridPlayer"
 [PlayerSettings.yellow]
-TYPE = "DefaultRobotPlayer"
+MODEL = "../CatanLearning.jl/models/linear_model.csv"
+TYPE = "HybridPlayer"

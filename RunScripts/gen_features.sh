@@ -1,1 +1,1 @@
-julia -e "include(\"run.jl\"); run_async_simple(\"configs/feature_generation.toml\")" --threads=8
+julia -e "include(\"run.jl\"); run_tournament_async(\"configs/feature_generation.toml\")" --threads=8
