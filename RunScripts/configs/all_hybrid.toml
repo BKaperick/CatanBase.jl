@@ -6,11 +6,11 @@ LOG_LEVEL = "Info"
 PRINT_BOARD = false
 TEAMS = ["blue", "cyan", "green", "yellow"]
 WRITE_FEATURES = false
-MAX_TURNS = 100
+MAX_TURNS = 1000
 
 [Tournament]
-GAMES_PER_MAP = 10
-MAPS_PER_EPOCH = 1
+GAMES_PER_MAP = 5
+MAPS_PER_EPOCH = 5
 # Number of epochs (1 epoch is M*N games) to run
 NUM_EPOCHS = 3
 
