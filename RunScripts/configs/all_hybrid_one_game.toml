@@ -1,0 +1,39 @@
+SAVE_GAME_TO_FILE = false
+SAVE_FILE = "savefile.txt"
+#LOG_OUTPUT = ""
+LOG_OUTPUT = "stderr"
+LOG_LEVEL = "Info"
+PRINT_BOARD = false
+TEAMS = ["blue", "cyan", "green", "yellow"]
+WRITE_FEATURES = false
+MAX_TURNS = 1000
+
+[Tournament]
+GAMES_PER_MAP = 1
+MAPS_PER_EPOCH = 1
+# Number of epochs (1 epoch is M*N games) to run
+NUM_EPOCHS = 1
+
+[PlayerSettings]
+FEATURES = "./data/features.csv"
+PUBLIC_FEATURES = "./data/public_features.csv"
+MODEL = "../CatanLearning.jl/models/linear_model.csv"
+PUBLIC_MODEL = "../CatanLearning.jl/models/public_model.jls"
+REWARD_WEIGHT = 0.5
+VALUE_WEIGHT = 0.5
+REWARD_DISCOUNT = 0.5
+LEARNING_RATE = 0.1
+SEARCH_DEPTH = 1
+
+[PlayerSettings.blue]
+MODEL = "../CatanLearning.jl/models/linear_model.csv"
+TYPE = "HybridPlayer"
+[PlayerSettings.cyan]
+MODEL = "../CatanLearning.jl/models/linear_model.csv"
+TYPE = "HybridPlayer"
+[PlayerSettings.green]
+MODEL = "../CatanLearning.jl/models/linear_model.csv"
+TYPE = "HybridPlayer"
+[PlayerSettings.yellow]
+MODEL = "../CatanLearning.jl/models/linear_model.csv"
+TYPE = "HybridPlayer"
