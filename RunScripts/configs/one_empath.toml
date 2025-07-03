@@ -9,10 +9,12 @@ WRITE_FEATURES = false
 MAX_TURNS = 100
 
 [Tournament]
-GAMES_PER_MAP = 10
+GAMES_PER_MAP = 100
 MAPS_PER_EPOCH = 1
 # Number of epochs (1 epoch is M*N games) to run
 NUM_EPOCHS = 1
+GAME_LOG_OUTPUT = "stderr"
+GAME_LOG_LEVEL = "Warn"
 
 [GameSettings]
 [GameSettings.DevCards]
