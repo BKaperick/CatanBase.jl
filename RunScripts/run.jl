@@ -5,6 +5,7 @@ using Profile
 using BenchmarkTools
 using ProfileView
 using PProf
+using Random
 using Base.Threads
 
 function retrain_models(config_file)
@@ -123,11 +124,14 @@ function memory_loop_run(config_file)
 end
 
 function memory_profile_run(config_file)
+    Random.seed!(123)
     configs = Catan.parse_configs(config_file)
     #@profview Catan.run(configs)
-    Catan.run(configs)
+    #Catan.run(configs)
+    CatanLearning.run_tournament(configs)
     Profile.Allocs.clear()
-    Profile.Allocs.@profile sample_rate=.1 Catan.run(configs)
+    #Profile.Allocs.@profile sample_rate=.05 Catan.run(configs)
+    Profile.Allocs.@profile sample_rate=.5 CatanLearning.run_tournament(configs)
     #Profile.Allocs.@profile sample_rate=1 Catan.run(configs)
     PProf.Allocs.pprof(from_c=false)
 end

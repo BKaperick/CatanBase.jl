@@ -1,4 +1,5 @@
 using Revise
+using Random
 using Catan
 using Profile
 using BenchmarkTools
@@ -18,6 +19,7 @@ function benchmark_one_game(config_file::String, descr::String)
 end
 
 function benchmark_run(configs::Dict, io, descr, secs=10)
+    Random.seed!(123)
     b = @benchmarkable Catan.run($configs) seconds=secs
     t = BenchmarkTools.run(b)
 
