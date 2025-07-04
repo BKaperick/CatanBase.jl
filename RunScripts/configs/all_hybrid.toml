@@ -3,13 +3,14 @@ SAVE_FILE = "savefile.txt"
 #LOG_OUTPUT = ""
 LOG_OUTPUT = "stderr"
 LOG_LEVEL = "Info"
+#LOG_LEVEL = "Debug"
 PRINT_BOARD = false
 TEAMS = ["blue", "cyan", "green", "yellow"]
-WRITE_FEATURES = false
-MAX_TURNS = 1000
+WRITE_FEATURES = true
+MAX_TURNS = 500
 
 [Tournament]
-GAMES_PER_MAP = 10
+GAMES_PER_MAP = 5
 MAPS_PER_EPOCH = 5
 # Number of epochs (1 epoch is M*N games) to run
 NUM_EPOCHS = 25
@@ -22,7 +23,7 @@ PUBLIC_MODEL = "../CatanLearning.jl/models/public_model.jls"
 REWARD_WEIGHT = 0.7
 VALUE_WEIGHT = 0.3
 REWARD_DISCOUNT = 0.4
-LEARNING_RATE = 0.05
+LEARNING_RATE = 0.1
 SEARCH_DEPTH = 1
 
 [PlayerSettings.blue]
