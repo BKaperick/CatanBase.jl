@@ -40,7 +40,9 @@ function run(config_file::String, file_suffix)
 end
 
 function run_tournament(config_file::String)
+    @info "parsing $config_file"
     configs = Catan.parse_configs(config_file)
+    #@info json(configs, 4)
     CatanLearning.run_tournament(configs)
 end
 
@@ -131,7 +133,7 @@ function memory_profile_run(config_file)
     CatanLearning.run_tournament(configs)
     Profile.Allocs.clear()
     #Profile.Allocs.@profile sample_rate=.05 Catan.run(configs)
-    Profile.Allocs.@profile sample_rate=.5 CatanLearning.run_tournament(configs)
+    Profile.Allocs.@profile sample_rate=.05 CatanLearning.run_tournament(configs)
     #Profile.Allocs.@profile sample_rate=1 Catan.run(configs)
     PProf.Allocs.pprof(from_c=false)
 end

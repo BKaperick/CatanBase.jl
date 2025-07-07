@@ -22,10 +22,6 @@ NUM_EPOCHS = 1
 #MONOPOLY = 0
 #VICTORY_POINT = 0
 
-[HypothGameSettings]
-LOG_OUTPUT = "stderr"
-LOG_LEVEL = "Warn"
-
 [PlayerSettings]
 MODEL = "../CatanLearning.jl/models/model.jls"
 PUBLIC_MODEL = "../CatanLearning.jl/models/public_model.jls"

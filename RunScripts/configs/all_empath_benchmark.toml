@@ -1,12 +1,16 @@
 SAVE_GAME_TO_FILE = false
 SAVE_FILE = "savefile.txt"
-LOG_OUTPUT = ""
-LOG_LEVEL = "Info"
 PRINT_BOARD = false
 TEAMS = ["blue", "cyan", "green", "yellow"]
 WRITE_FEATURES = false
 MAX_TURNS = 100
 BENCHMARK_OUTPUT = "learning_benchmark.txt"
+
+[LogSettings]
+LOG_OUTPUT = ""
+LOG_LEVEL = "Info"
+HYPOTH_LOG_OUTPUT = "stderr"
+HYPOTH_LOG_LEVEL = "Warn"
 
 [Tournament]
 GAMES_PER_MAP = 1
@@ -21,10 +25,6 @@ NUM_EPOCHS = 1
 #YEAR_OF_PLENTY = 20
 #MONOPOLY = 0
 #VICTORY_POINT = 0
-
-[HypothGameSettings]
-LOG_OUTPUT = "stderr"
-LOG_LEVEL = "Warn"
 
 [PlayerSettings]
 MODEL = "../CatanLearning.jl/models/model.jls"

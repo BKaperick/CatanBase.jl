@@ -1,12 +1,13 @@
 SAVE_GAME_TO_FILE = false
 SAVE_FILE = "savefile.txt"
-#LOG_OUTPUT = "./tmp/validate_log.txt"
-LOG_OUTPUT = "stderr"
-#LOG_LEVEL = "Logging.Info"
 LOG_LEVEL = "Logging.Debug"
 PRINT_BOARD = true
 MAX_TURNS = 500
 TEAMS = ["blue", "cyan", "green", "yellow"]
+
+[LogSettings]
+LOG_OUTPUT = "stderr"
+LOG_LEVEL = "Debug"
 
 [Tournament]
 GAMES_PER_MAP = 10

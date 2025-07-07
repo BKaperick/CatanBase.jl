@@ -6,15 +6,17 @@ LOG_LEVEL = "Info"
 PRINT_BOARD = false
 TEAMS = ["blue", "cyan", "green", "yellow"]
 WRITE_FEATURES = false
-MAX_TURNS = 100
+MAX_TURNS = 500
+
+[LogSettings]
+GAME_LOG_LEVEL = "Warn"
+HYPOTH_LOG_LEVEL = "Warn"
 
 [Tournament]
-GAMES_PER_MAP = 100
-MAPS_PER_EPOCH = 1
+GAMES_PER_MAP = 10
+MAPS_PER_EPOCH = 5
 # Number of epochs (1 epoch is M*N games) to run
 NUM_EPOCHS = 1
-GAME_LOG_OUTPUT = "stderr"
-GAME_LOG_LEVEL = "Warn"
 
 [GameSettings]
 [GameSettings.DevCards]
@@ -24,18 +26,15 @@ GAME_LOG_LEVEL = "Warn"
 #MONOPOLY = 0
 #VICTORY_POINT = 0
 
-[HypothGameSettings]
-LOG_OUTPUT = "stderr"
-LOG_LEVEL = "Warn"
-
 [PlayerSettings]
 MODEL = "../CatanLearning.jl/models/model.jls"
+#MODEL = "../CatanLearning.jl/models/linear_model.csv"
 PUBLIC_MODEL = "../CatanLearning.jl/models/public_model.jls"
 FEATURES = "./data/features.csv"
 PUBLIC_FEATURES = "./data/public_features.csv"
 [PlayerSettings.blue]
 TYPE = "EmpathRobotPlayer"
-SEARCH_DEPTH = 1
+SEARCH_DEPTH = 2
 [PlayerSettings.cyan]
 TYPE = "DefaultRobotPlayer"
 [PlayerSettings.green]

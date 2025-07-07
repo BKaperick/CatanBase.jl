@@ -1,10 +1,13 @@
 SAVE_GAME_TO_FILE = false
+PRINT_BOARD = false
+TEAMS = ["blue", "cyan", "green", "yellow"]
+
+[LogSettings]
 #LOG_OUTPUT = "./tmp/validate_log.txt"
 #LOG_LEVEL = "Debug"
 #LOG_OUTPUT = "stderr"
 LOG_OUTPUT = ""
-PRINT_BOARD = false
-TEAMS = ["blue", "cyan", "green", "yellow"]
+
 
 [Tournament]
 GAMES_PER_MAP = 1
