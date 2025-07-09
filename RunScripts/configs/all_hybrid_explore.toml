@@ -1,11 +1,8 @@
 SAVE_GAME_TO_FILE = false
 SAVE_FILE = "savefile.txt"
-#LOG_OUTPUT = ""
-#LOG_LEVEL = "Debug"
 PRINT_BOARD = false
 TEAMS = ["blue", "cyan", "green", "yellow"]
 WRITE_FEATURES = true
-WRITE_VALUES = true
 MAX_TURNS = 500
 
 [LogSettings]
@@ -19,7 +16,7 @@ HYPOTH_LOG_LEVEL = "Warn"
 GAMES_PER_MAP = 10
 MAPS_PER_EPOCH = 10
 # Number of epochs (1 epoch is M*N games) to run
-NUM_EPOCHS = 25
+NUM_EPOCHS = 50
 
 [PlayerSettings]
 FEATURES = "./data/features.csv"
@@ -33,7 +30,7 @@ VALUE_WEIGHT = 0.0
 REWARD_DISCOUNT = 0.4
 LEARNING_RATE = 0.1
 SEARCH_DEPTH = 1
-MODIFY_REINFORCEMENT_WEIGHTS = true
+MODIFY_REINFORCEMENT_WEIGHTS = false
 
 [PlayerSettings.blue]
 TYPE = "HybridPlayer"
