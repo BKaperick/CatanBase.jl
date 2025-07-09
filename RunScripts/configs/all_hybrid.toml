@@ -19,14 +19,14 @@ HYPOTH_LOG_LEVEL = "Warn"
 GAMES_PER_MAP = 10
 MAPS_PER_EPOCH = 10
 # Number of epochs (1 epoch is M*N games) to run
-NUM_EPOCHS = 25
+NUM_EPOCHS = 50
 
 [PlayerSettings]
 FEATURES = "./data/features.csv"
 PUBLIC_FEATURES = "./data/public_features.csv"
 MODELS_DIR = "./models"
-MODEL = "linear_model.csv"
-PUBLIC_MODEL = "public_linear_model.csv"
+MODEL = "./models/linear_model.csv"
+PUBLIC_MODEL = "./models/public_linear_model.csv"
 STATE_VALUES = "./data/state_values.csv"
 REWARD_WEIGHT = 1.0
 VALUE_WEIGHT = 0.0
