@@ -19,7 +19,7 @@ HYPOTH_LOG_LEVEL = "Warn"
 GAMES_PER_MAP = 10
 MAPS_PER_EPOCH = 10
 # Number of epochs (1 epoch is M*N games) to run
-NUM_EPOCHS = 50
+NUM_EPOCHS = 100
 
 [PlayerSettings]
 FEATURES = "./data/features.csv"

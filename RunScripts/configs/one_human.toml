@@ -1,0 +1,31 @@
+SAVE_GAME_TO_FILE = true
+SAVE_FILE = "savefile.txt"
+LOAD_FILE = "savefile.txt"
+#LOG_OUTPUT = ""
+LOG_OUTPUT = "stderr"
+LOG_LEVEL = "Info"
+PRINT_BOARD = true
+TEAMS = ["blue", "cyan", "green", "yellow"]
+WRITE_FEATURES = false
+MAX_TURNS = 500
+SERIALIZATION_STRATEGY = "JSON"
+
+[LogSettings]
+GAME_LOG_LEVEL = "Warn"
+HYPOTH_LOG_LEVEL = "Warn"
+
+[PlayerSettings]
+MODEL = "./models/linear_model.csv"
+PUBLIC_MODEL = "./models/public_linear_model.csv"
+FEATURES = "./data/features.csv"
+PUBLIC_FEATURES = "./data/public_features.csv"
+[PlayerSettings.blue]
+TYPE = "HumanPlayer"
+[PlayerSettings.cyan]
+TYPE = "EmpathRobotPlayer"
+SEARCH_DEPTH = 2
+[PlayerSettings.green]
+TYPE = "EmpathRobotPlayer"
+SEARCH_DEPTH = 1
+[PlayerSettings.yellow]
+TYPE = "DefaultRobotPlayer"

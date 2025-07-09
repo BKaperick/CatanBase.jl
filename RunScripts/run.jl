@@ -167,7 +167,10 @@ function time_profile_run_async(config_file)
     pprof(from_c=true)
 end
 
-function run_one(config_file)
+function run_one(config_file, rng=nothing)
+    if ~isnothing(rng)
+        Random.seed!(rng)
+    end
     configs = Catan.parse_configs(config_file)
     Catan.run(configs)
 end

@@ -1,0 +1,7 @@
+{
+  "name": "catan",
+  "version": "0.0.1",
+  "description": "test using socket.io for board game interactions",
+  "type": "commonjs",
+  "dependencies": {}
+}
