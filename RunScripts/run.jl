@@ -126,7 +126,7 @@ function memory_loop_run(config_file)
 end
 
 function memory_profile_run(config_file)
-    Random.seed!(123)
+    Random.seed!(456)
     configs = Catan.parse_configs(config_file)
     #@profview Catan.run(configs)
     #Catan.run(configs)

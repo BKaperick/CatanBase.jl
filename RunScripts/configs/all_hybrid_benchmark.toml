@@ -1,12 +1,16 @@
 SAVE_GAME_TO_FILE = false
 SAVE_FILE = "savefile.txt"
-LOG_OUTPUT = ""
-LOG_LEVEL = "Info"
 PRINT_BOARD = false
 TEAMS = ["blue", "cyan", "green", "yellow"]
 WRITE_FEATURES = false
-MAX_TURNS = 1000
+MAX_TURNS = 500
 BENCHMARK_OUTPUT = "learning_benchmark.txt"
+
+[LogSettings]
+LOG_OUTPUT = ""
+LOG_LEVEL = "Info"
+GAME_LOG_LEVEL = "Warn"
+HYPOTH_LOG_LEVEL = "Warn"
 
 [Tournament]
 GAMES_PER_MAP = 1
@@ -18,7 +22,8 @@ NUM_EPOCHS = 1
 FEATURES = "./data/features.csv"
 PUBLIC_FEATURES = "./data/public_features.csv"
 MODEL = "../CatanLearning.jl/models/linear_model.csv"
-PUBLIC_MODEL = "../CatanLearning.jl/models/public_model.jls"
+#PUBLIC_MODEL = "../CatanLearning.jl/models/public_model.jls"
+PUBLIC_MODEL = "../CatanLearning.jl/models/public_linear_model.csv"
 REWARD_WEIGHT = 0.5
 VALUE_WEIGHT = 0.5
 REWARD_DISCOUNT = 0.5
