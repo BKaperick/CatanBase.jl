@@ -1,5 +1,5 @@
 SAVE_GAME_TO_FILE = false
-SAVE_FILE = "savefile.txt"
+SAVE_FILE = ""
 #LOG_OUTPUT = ""
 LOG_OUTPUT = "stderr"
 LOG_LEVEL = "Info"
