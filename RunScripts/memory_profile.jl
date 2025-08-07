@@ -13,7 +13,7 @@ using Base.Threads
 #config_file = ARGS[1]
 println(config_file)
 configs = Catan.parse_configs(config_file)
-board = Catan.read_map(configs)
+board = Board(configs)
 player1 = DefaultRobotPlayer(:Test1, configs)
 player2 = DefaultRobotPlayer(:Test2, configs)
 players = Vector{PlayerType}([player1, player2])

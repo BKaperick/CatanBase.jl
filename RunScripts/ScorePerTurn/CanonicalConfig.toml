@@ -1,0 +1,41 @@
+SAVE_GAME_TO_FILE = false
+SAVE_FILE = "savefile.txt"
+#LOG_OUTPUT = ""
+LOAD_MAP = "canonical_map.csv"
+SAVE_MAP = "canonical_map.csv"
+LOG_OUTPUT = "stderr"
+LOG_LEVEL = "Debug"
+PRINT_BOARD = false
+TEAMS = ["blue", "cyan", "green", "red"]
+WRITE_FEATURES = false
+MAX_TURNS = 500
+SERIALIZATION_STRATEGY = "JSON"
+
+[LogSettings]
+GAME_LOG_LEVEL = "Warn"
+HYPOTH_LOG_LEVEL = "Warn"
+
+[Tournament]
+GAMES_PER_MAP = 1_0
+MAPS_PER_EPOCH = 1
+NUM_EPOCHS = 10
+GENERATE_RANDOM_MAPS = false
+
+[PlayerSettings]
+MODEL = "./canonical_linear_model.csv"
+PUBLIC_MODEL = "./canonical_public_linear_model.csv"
+FEATURES = "./canonical_features.csv"
+PUBLIC_FEATURES = "./canonical_public_features.csv"
+STATE_VALUES = "./canonical_state_values.csv"
+[PlayerSettings.blue]
+TYPE = "EmpathRobotPlayer"
+SEARCH_DEPTH = 2
+[PlayerSettings.cyan]
+TYPE = "EmpathRobotPlayer"
+SEARCH_DEPTH = 1
+[PlayerSettings.green]
+TYPE = "DefaultRobotPlayer"
+SEARCH_DEPTH = 1
+[PlayerSettings.red]
+TYPE = "DefaultRobotPlayer"
+SEARCH_DEPTH = 1

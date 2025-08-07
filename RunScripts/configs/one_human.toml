@@ -1,7 +1,7 @@
 SAVE_GAME_TO_FILE = true
-SAVE_FILE = "savefile.txt"
-LOAD_FILE = "savefile.txt"
+SAVE_FILE = "ScorePerTurn/savefile.txt"
 #LOG_OUTPUT = ""
+SAVE_MAP = "ScorePerTurn/map.csv"
 LOG_OUTPUT = "stderr"
 LOG_LEVEL = "Info"
 PRINT_BOARD = true

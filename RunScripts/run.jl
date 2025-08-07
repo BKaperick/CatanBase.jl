@@ -39,11 +39,12 @@ function run(config_file::String, file_suffix)
     CatanLearning.run_tournament(configs)
 end
 
-function run_tournament(config_file::String)
-    @info "parsing $config_file"
+function run_tournament(config_file::String, seed = nothing)
+    if seed !== nothing
+        Random.seed!(seed)
+    end
     configs = Catan.parse_configs(config_file)
-    #@info json(configs, 4)
-    CatanLearning.run_tournament(configs)
+    return CatanLearning.run_tournament(configs)
 end
 
 function run_state_space_tournament(config_file::String)
@@ -133,7 +134,7 @@ function memory_profile_run(config_file)
     CatanLearning.run_tournament(configs)
     Profile.Allocs.clear()
     #Profile.Allocs.@profile sample_rate=.05 Catan.run(configs)
-    Profile.Allocs.@profile sample_rate=.05 CatanLearning.run_tournament(configs)
+    Profile.Allocs.@profile sample_rate=.1 CatanLearning.run_tournament(configs)
     #Profile.Allocs.@profile sample_rate=1 Catan.run(configs)
     PProf.Allocs.pprof(from_c=false)
 end
@@ -168,9 +169,7 @@ function time_profile_run_async(config_file)
 end
 
 function run_one(config_file, rng=nothing)
-    if ~isnothing(rng)
-        Random.seed!(rng)
-    end
+
     configs = Catan.parse_configs(config_file)
     Catan.run(configs)
 end

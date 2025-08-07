@@ -1,0 +1,37 @@
+SAVE_GAME_TO_FILE = true
+SAVE_FILE = "savefile.txt"
+#LOG_OUTPUT = ""
+LOAD_MAP = "map.csv"
+SAVE_MAP = "map.csv"
+LOG_OUTPUT = "stderr"
+LOG_LEVEL = "Info"
+PRINT_BOARD = true
+TEAMS = ["blue", "cyan", "green", "red"]
+WRITE_FEATURES = false
+MAX_TURNS = 500
+SERIALIZATION_STRATEGY = "JSON"
+
+[LogSettings]
+GAME_LOG_LEVEL = "Warn"
+HYPOTH_LOG_LEVEL = "Warn"
+
+GAMES_PER_MAP = 100
+MAPS_PER_EPOCH = 2
+# Number of epochs (1 epoch is M*N games) to run
+NUM_EPOCHS = 1
+[PlayerSettings]
+MODEL = "../models/linear_model.csv"
+PUBLIC_MODEL = "../models/public_linear_model.csv"
+FEATURES = "../data/features.csv"
+PUBLIC_FEATURES = "../data/public_features.csv"
+[PlayerSettings.blue]
+TYPE = "EmpathRobotPlayer"
+SEARCH_DEPTH = 1
+[PlayerSettings.cyan]
+TYPE = "EmpathRobotPlayer"
+SEARCH_DEPTH = 2
+[PlayerSettings.green]
+TYPE = "EmpathRobotPlayer"
+SEARCH_DEPTH = 1
+[PlayerSettings.red]
+TYPE = "DefaultRobotPlayer"
